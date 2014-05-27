@@ -44,7 +44,7 @@ function loadInventory() {
 				$.each(response, function(key, val) {
 					$('#content').append('<h2>'+val.name+'</h2>');
 					$('#content').append('<img src="'+val.img+'" class="img-thumbnail" style="width: 100%;" />');
-					$('#content').append('<div class="row"><div class="col-xs-offset-3 col-xs-3"><b>Amount:</b> '+val.amount+'</div><div class="col-xs-3"><b>Price:</b> '+val.price+' $</div></div>');
+					$('#content').append('<div class="row"><div class="col-xs-offset-2 col-xs-4"><b>Amount:</b> '+val.amount+'</div><div class="col-xs-4"><b>Price:</b> '+val.price+' $</div></div>');
 				});
 			}
 		});
