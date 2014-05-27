@@ -1,14 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="org.traeg.phonegap.FastTip" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>PG3FasTip</name>
+    <name>CS:GO Blink</name>
     <description>
-        PhoneGap 3 Version of the FasTip application
+        CS:GO Blink App
     </description>
-    <author email="ptraeg@yahoo.com" href="http://traeg.org">
-        Peter Traeg
+    <author email="info@frederik-frey.de" href="http://frederik-frey.de">
+        Frederik Frey
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
-    <preference name="orientation" value="landscape" />
     <preference name="fullscreen" value="false" />
     <preference name="target-device" value="universal" />
     <preference name="ios-statusbarstyle" value="black-opaque" />
