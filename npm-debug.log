@@ -1,0 +1,1700 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'g:\\NodeJs\\node.exe',
+1 verbose cli   'g:\\NodeJs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'steam' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose cache add [ 'steam', null ]
+5 verbose cache add name=undefined spec="steam" args=["steam",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'steam',
+6 verbose parsed url   path: 'steam',
+6 verbose parsed url   href: 'steam' }
+7 silly lockFile bf2903b5-steam steam
+8 verbose lock steam C:\Users\Frederik\AppData\Roaming\npm-cache\bf2903b5-steam.lock
+9 silly lockFile bf2903b5-steam steam
+10 silly lockFile bf2903b5-steam steam
+11 verbose addNamed [ 'steam', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile e3e02841-steam steam@
+14 verbose lock steam@ C:\Users\Frederik\AppData\Roaming\npm-cache\e3e02841-steam.lock
+15 silly addNameRange { name: 'steam', range: '*', hasData: false }
+16 verbose url raw steam
+17 verbose url resolving [ 'https://registry.npmjs.org/', './steam' ]
+18 verbose url resolved https://registry.npmjs.org/steam
+19 info trying registry request attempt 1 at 23:59:22
+20 http GET https://registry.npmjs.org/steam
+21 http 200 https://registry.npmjs.org/steam
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Tue, 27 May 2014 21:59:11 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+22 silly registry.get     etag: '"EE5YVVRE8FXX0NKBLPX6D8BLK"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     'cache-control': 'max-age=1',
+22 silly registry.get     'content-length': '39129',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     age: '0',
+22 silly registry.get     'x-served-by': 'cache-v41-ASH, cache-fra1229-FRA',
+22 silly registry.get     'x-cache': 'MISS, MISS',
+22 silly registry.get     'x-cache-hits': '0, 0',
+22 silly registry.get     'x-timer': 'S1401227951.126529,VS0,VE121',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'steam', range: '*', hasData: true }
+24 silly addNameRange versions [ 'steam',
+24 silly addNameRange   [ '0.0.3',
+24 silly addNameRange     '0.1.0',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.3.1',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.4.1',
+24 silly addNameRange     '0.4.2',
+24 silly addNameRange     '0.4.3',
+24 silly addNameRange     '0.4.4',
+24 silly addNameRange     '0.4.5',
+24 silly addNameRange     '0.4.6',
+24 silly addNameRange     '0.4.7',
+24 silly addNameRange     '0.4.8',
+24 silly addNameRange     '0.4.9',
+24 silly addNameRange     '0.5.0',
+24 silly addNameRange     '0.5.1',
+24 silly addNameRange     '0.5.2',
+24 silly addNameRange     '0.5.3',
+24 silly addNameRange     '0.5.4',
+24 silly addNameRange     '0.5.5',
+24 silly addNameRange     '0.5.6',
+24 silly addNameRange     '0.5.7',
+24 silly addNameRange     '0.6.0',
+24 silly addNameRange     '0.6.1',
+24 silly addNameRange     '0.6.2',
+24 silly addNameRange     '0.6.3',
+24 silly addNameRange     '0.6.4',
+24 silly addNameRange     '0.6.5',
+24 silly addNameRange     '0.6.6' ] ]
+25 verbose addNamed [ 'steam', '0.6.6' ]
+26 verbose addNamed [ '0.6.6', '0.6.6' ]
+27 silly lockFile 2e93a1f8-steam-0-6-6 steam@0.6.6
+28 verbose lock steam@0.6.6 C:\Users\Frederik\AppData\Roaming\npm-cache\2e93a1f8-steam-0-6-6.lock
+29 silly lockFile 0acf03b9--npmjs-org-steam-steam-0-6-6-tgz https://registry.npmjs.org/steam/-/steam-0.6.6.tgz
+30 verbose lock https://registry.npmjs.org/steam/-/steam-0.6.6.tgz C:\Users\Frederik\AppData\Roaming\npm-cache\0acf03b9--npmjs-org-steam-steam-0-6-6-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/steam/-/steam-0.6.6.tgz',
+31 verbose addRemoteTarball   '5c136ca07b08ace2e70c24b6b7d757a8aeada2b0' ]
+32 info retry fetch attempt 1 at 23:59:22
+33 verbose fetch to= C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227962964-0.5917842974886298\tmp.tgz
+34 http GET https://registry.npmjs.org/steam/-/steam-0.6.6.tgz
+35 http 200 https://registry.npmjs.org/steam/-/steam-0.6.6.tgz
+36 verbose tar unpack C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227962964-0.5917842974886298\tmp.tgz
+37 silly lockFile d3d42dc4-ng-npm-cache-steam-0-6-6-package tar://C:\Users\Frederik\AppData\Roaming\npm-cache\steam\0.6.6\package
+38 verbose lock tar://C:\Users\Frederik\AppData\Roaming\npm-cache\steam\0.6.6\package C:\Users\Frederik\AppData\Roaming\npm-cache\d3d42dc4-ng-npm-cache-steam-0-6-6-package.lock
+39 silly lockFile b78bd29b-62964-0-5917842974886298-tmp-tgz tar://C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227962964-0.5917842974886298\tmp.tgz
+40 verbose lock tar://C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227962964-0.5917842974886298\tmp.tgz C:\Users\Frederik\AppData\Roaming\npm-cache\b78bd29b-62964-0-5917842974886298-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry LICENSE
+46 silly gunzTarPerm extractEntry example.js
+47 silly gunzTarPerm extractEntry lib/VDF.js
+48 silly gunzTarPerm extractEntry lib/connection.js
+49 silly gunzTarPerm extractEntry lib/crypto_helper.js
+50 silly gunzTarPerm extractEntry lib/servers.js
+51 silly gunzTarPerm extractEntry lib/steamID.js
+52 silly gunzTarPerm extractEntry lib/steam_client.js
+53 silly gunzTarPerm extractEntry lib/generated/steam_language.js
+54 silly gunzTarPerm extractEntry lib/generated/steam_language_internal.js
+55 silly gunzTarPerm extractEntry lib/generated/GC/steam_msg_base.desc
+56 silly gunzTarPerm extractEntry lib/generated/steam_msg.desc
+57 silly gunzTarPerm extractEntry lib/handlers/friends.js
+58 silly gunzTarPerm extractEntry lib/handlers/game_coordinator.js
+59 silly gunzTarPerm extractEntry lib/handlers/trading.js
+60 silly gunzTarPerm extractEntry lib/handlers/user.js
+61 silly gunzTarPerm extractEntry lib/public.pub
+62 silly lockFile d3d42dc4-ng-npm-cache-steam-0-6-6-package tar://C:\Users\Frederik\AppData\Roaming\npm-cache\steam\0.6.6\package
+63 silly lockFile d3d42dc4-ng-npm-cache-steam-0-6-6-package tar://C:\Users\Frederik\AppData\Roaming\npm-cache\steam\0.6.6\package
+64 silly lockFile b78bd29b-62964-0-5917842974886298-tmp-tgz tar://C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227962964-0.5917842974886298\tmp.tgz
+65 silly lockFile b78bd29b-62964-0-5917842974886298-tmp-tgz tar://C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227962964-0.5917842974886298\tmp.tgz
+66 silly lockFile 0acf03b9--npmjs-org-steam-steam-0-6-6-tgz https://registry.npmjs.org/steam/-/steam-0.6.6.tgz
+67 silly lockFile 0acf03b9--npmjs-org-steam-steam-0-6-6-tgz https://registry.npmjs.org/steam/-/steam-0.6.6.tgz
+68 silly lockFile 2e93a1f8-steam-0-6-6 steam@0.6.6
+69 silly lockFile 2e93a1f8-steam-0-6-6 steam@0.6.6
+70 silly lockFile e3e02841-steam steam@
+71 silly lockFile e3e02841-steam steam@
+72 silly resolved [ { name: 'steam',
+72 silly resolved     version: '0.6.6',
+72 silly resolved     description: 'Lets you interface with Steam without running an actual Steam client',
+72 silly resolved     author: { name: 'Nicholas', email: 'vvnicholas@gmail.com' },
+72 silly resolved     main: './lib/steam_client',
+72 silly resolved     repository:
+72 silly resolved      { type: 'git',
+72 silly resolved        url: 'https://github.com/seishun/node-steam.git' },
+72 silly resolved     dependencies:
+72 silly resolved      { 'adm-zip': '*',
+72 silly resolved        'buffer-crc32': '*',
+72 silly resolved        protobuf: '*',
+72 silly resolved        ref: '*',
+72 silly resolved        ursa: '*' },
+72 silly resolved     engines: { node: '0.10.x' },
+72 silly resolved     readme: '# Steam for Node.js\n\nThis is a Node.js port of [SteamKit2](https://bitbucket.org/VoiDeD/steamre/wiki/Home). It lets you interface with Steam without running an actual Steam client. Could be used to run an autonomous chat/trade bot.\n\n\n# Installation\n\n```\nnpm install steam\n```\n\nNote: there are a number of breaking changes in v0.6.0. Please read the [release notes](https://github.com/seishun/node-steam/releases/tag/v0.6.0).\n\nWindows note: this module depends on [ursa](https://github.com/Obvious/ursa). Follow its installation prerequisites first.\n\n# Usage\nFirst, `require` this module.\n```js\nvar Steam = require(\'steam\');\n```\n`Steam` is now a namespace (implemented as an object) containing the SteamClient class, `servers` property, and a huge collection of enums (implemented as objects). More on those below.\n\nThen you\'ll want to create an instance of SteamClient, call its [logOn](#logonlogondetails) method and assign event listeners.\n\n```js\nvar bot = new Steam.SteamClient();\nbot.logOn({\n  accountName: \'username\',\n  password: \'password\'\n});\nbot.on(\'loggedOn\', function() { /* ... */});\n```\n\nSee example.js for the usage of some of the available API.\n\n# Servers\n\n`Steam.servers` contains the list of CM servers node-steam will attempt to connect to. The bootstrapped list (see [servers.js](https://github.com/seishun/node-steam/blob/master/lib/servers.js)) is not always up-to-date and might contain dead servers. To avoid timeouts, replace it with your own list before logging in if you have one (see [\'servers\' event](#servers-1)).\n\n# SteamID\n\nSince JavaScript\'s `Number` type does not have enough precision to store 64-bit integers, SteamIDs are represented as decimal strings. (Just wrap the number in quotes)\n\n# Enums\n\nWhenever a method accepts (or an event provides) an `ESomething`, it\'s a `Number` that represents some enum value. See [steam_language.js](https://github.com/seishun/node-steam/tree/master/lib/generated/steam_language.js) for the whole list of them.\n\nNote that you can\'t easily get the string value from the number, but you probably don\'t need to. You can still use them in conditions (e.g. `if (type == Steam.EChatEntryType.Emote) ...`) or switch statements.\n\n# SteamClient\n\n## Properties\n\n### loggedOn\n\nA boolean that indicates whether you are currently logged on. [\'loggedOn\'](#loggedon-1) is emitted when it changes to `true`, and [\'loggedOff\'](#loggedoff) or [\'error\'](#error) when it changes to `false`, unless you called [logOff](#logoff). Accessing any other properties or calling any methods other than [logOn](#logonlogondetails) or [logOff](#logoff) is only allowed while logged on.\n\n### steamID\n\nYour own SteamID.\n\n### users\n\nInformation about users you have encountered. It\'s an object with the following structure:\n\n```js\n{\n  "steamID of the user": {\n    playerName: "the user\'s current profile name",\n    gameName: "the title of the game the user is currently playing"\n    // ...and other properties that come directly from Steam\n  }\n  // ...other users\n}\n```\n\n### chatRooms\n\nInformation about chat rooms you have joined. It\'s an object with the following structure:\n```js\n{\n  "steamID of the chat": {\n    "steamID of one of the chat\'s current members": {\n      rank: "EClanPermission",\n      permissions: "a bitset of values from EChatPermission"\n    }\n    // other members\n  }\n  // other chats\n}\n```\n\nFor example, `Object.keys(steamClient.chatRooms[chatID])` will return an array of the chat\'s current members, and `steamClient.chatRooms[chatID][memberID].permissions & Steam.EChatPermission.Kick` will evaluate to a nonzero value if the specified user is allowed to kick from the specified chat.\n\n### friends\n\nAn object that maps users\' SteamIDs to their `EFriendRelationship` with you. Empty until [\'relationships\'](#relationships) is emitted. [\'friend\'](#friend) is emitted before this object changes.\n\n### groups\n\nAn object that maps groups\' SteamIDs to their `EClanRelationship` with you. Empty until [\'relationships\'](#relationships) is emitted. [\'group\'](#group) is emitted before this object changes.\n\n## Methods\n\n### logOn(logOnDetails)\n\nConnects to Steam and logs you on upon connecting. `logOnDetails` is an object with the following properties:\n\n* `accountName` - required.\n* `password` - required.\n* `authCode` - Steam Guard code. Must be valid if provided, otherwise the logon will fail. Note that Steam Guard codes expire after a short while.\n* `shaSentryfile` - sentry hash. If not provided, you\'ll receive one through the [\'sentry\' event](#sentry) (if the logon succeeds). If no Steam Guard code is provided, the hash must be already registered with this account, otherwise it\'s ignored.\n\nIf you provide neither a Steam Guard code nor a sentry hash registered with this account, the logon will fail and you\'ll receive an email with the code.\n\nIf you provide both a sentry hash and a valid Steam Guard code, the hash will be registered with this account. This allows you to reuse the same hash for multiple accounts.\n\nYou can call this method at any time. If you are already logged on, logs you off first. If there is an ongoing connection attempt, cancels it.\n\n### logOff()\n\nLogs you off from Steam. If you are already logged off, does nothing. If there is an ongoing connection attempt, cancels it. Will not emit either [\'loggedOff\'](#loggedoff) or [\'error\'](#error).\n\n### webLogOn(callback)\n\nLogs into Steam Community. You only need this if you know you do. `callback` will be called with an array of your new cookies (as strings).\n\nDo not call this before the first [\'webSessionID\' event](#websessionid), or you\'ll get a broken cookie. Feel free to call this whenever you need to refresh your web session - for example, if you log into the same account from a browser on another computer.\n\n### gamesPlayed(appIDs)\n\nTells Steam you are playing game(s). `appIDs` is an array of AppIDs, for example `[570]`. Multiple AppIDs can (used to?) be used for multi-game idling.\n\n### setPersonaName(name)\n\nChanges your Steam profile name.\n\n### setPersonaState(EPersonaState)\n\nYou\'ll want to call this with `EPersonaState.Online` upon logon, otherwise you\'ll show up as offline.\n\n### sendMessage(steamID, message, [EChatEntryType])\n\nLast parameter defaults to `EChatEntryType.ChatMsg`. Another type you might want to use is `EChatEntryType.Emote`.\n\n### addFriend(steamID)\n\nSends a friend request.\n\n### removeFriend(steamID)\n\nRemoves a friend.\n\n### joinChat(steamID)\n\nJoins the chat room of the specified group. Go to the group\'s Community page, press Ctrl+U and search for "joinchat". Will silently fail if you are not allowed to join.\n\n### leaveChat(steamID)\n\nLeaves the chat room of the specified group. Will silently fail if you are not currently in it. Removes the chat from [`chatRooms`](#chatrooms).\n\n### lockChat(steamID), unlockChat(steamID)\n\nLocks and unlocks a chat room respectively.\n\n### setModerated(steamID), setUnmoderated(steamID)\n\nEnables and disables officers-only chat respectively.\n\n### kick(chatSteamID, memberSteamID), ban(chatSteamID, memberSteamID), unban(chatSteamID, memberSteamID)\n\nSelf-explanatory.\n\n### trade(steamID)\n\nSends a trade request to the specified user.\n\n### respondToTrade(tradeID, acceptTrade)\n\nSame `tradeID` as the one passed through the [\'tradeProposed\' event](#tradeproposed). `acceptTrade` should be `true` or `false`.\n\n### cancelTrade(steamID)\n\nCancels your proposed trade to the specified user.\n\n### toGC(appID, type, body, [args...])\n\nSends a message to Game Coordinator. `body` must be a serialized message without the header (it will be added by node-steam). `type` must be masked accordingly if it\'s a protobuf message. If any extra arguments are provided and this message receives a response (JobID-based), they will be passed to the [\'fromGC\' event](#fromgc) handler.\n\n## Events\n\n### \'error\'\n* `e` - an `Error` object\n\nSomething preventing continued operation of node-steam has occurred. `e.cause` is a string containing one of these values:\n* \'logonFail\' - can\'t log into Steam. `e.eresult` is an `EResult`, the logon response. Some values you might want to handle are `InvalidPassword`, `AlreadyLoggedInElsewhere` and `AccountLogonDenied` (Steam Guard code required).\n* \'loggedOff\' - you were logged off for a reason other than Steam going down. `e.eresult` is an `EResult`, most likely `LoggedInElsewhere`.\n\n### \'loggedOn\'\n\nYou can now safely use all API.\n\n### \'webSessionID\'\n* your new sessionID\n\nIf you are using Steam Community (including trading), you should call [webLogOn](#weblogoncallback) again, since your current cookie is no longer valid.\n\n### \'sentry\'\n* a Buffer containing your Steam Guard sentry file hash\n\nIf you didn\'t provide a hash when logging in, Steam will send you one through this event. If you have Steam Guard enabled, you should save this and use it for your further logons. It will not expire unlike the code.\n\n### \'servers\'\n* an Array containing the up-to-date server list\n\nnode-steam will use this new list when reconnecting, but it will be lost when your application restarts. You might want to save it to a file or a database and assign it to [`Steam.servers`](#servers) before logging in next time.\n\nNote that `Steam.servers` will be automatically updated _after_ this event is emitted. This will be useful if you want to compare the old list with the new one for some reason - otherwise it shouldn\'t matter.\n\n### \'loggedOff\'\n\nYou were logged off from Steam due to it going down. It will keep trying to reconnect and eventually emit either [\'loggedOn\'](#loggedon-1) or [\'error\'](#error), unless you cancel it with [logOff](#logoff).\n\n### \'chatInvite\'\n* SteamID of the chat you were invited to\n* name of the chat\n* SteamID of the user who invited you\n\n### \'user\'\n* Object with new user data\n\nSomeone has gone offline/online, started a game, changed their nickname or something else. The provided object has the same structure as in the [`users`](#users) property, and its `friendid` property contains the user\'s SteamID. Note that the [`users`](#users) property is not yet updated when this event is fired, so you can compare the new state with the old one to see what changed.\n\n### \'richPresence\'\n**This API is unstable.**\n* SteamID of the user\n* the user\'s string status (e.g. \'#DOTA_RP_FINDING_MATCH\' or \'#DOTA_RP_PLAYING_AS\')\n* optional extra args (in Dota 2, hero level and hero name)\n\nGame-specific information about a user. Only received when you\'re in the same game.\n\n### \'relationships\'\n\nThe [`friends`](#friends) and [`groups`](#groups) properties now contain data (unless your friend/group list is empty). Listen for this if you want to accept/decline friend requests that came while you were offline, for example.\n\n### \'friend\'\n* SteamID of the user\n* `EFriendRelationship`\n\nSome activity in your friend list. For example, `EFriendRelationship.PendingInvitee` means you got a friend invite, `EFriendRelationship.None` means you got removed. The [`friends`](#friends) property is updated after this event is emitted.\n\n### \'group\'\n* SteamID of the group\n* `EClanRelationship`\n\nSome activity in your group list. For example, `EClanRelationship.Invited` means you got invited to a group, `EClanRelationship.Kicked` means you got kicked. The [`groups`](#groups) property is updated after this event is emitted.\n\n### \'friendMsg\'\n* SteamID of the user\n* the message\n* `EChatEntryType`\n\n### \'chatMsg\'\n* SteamID of the chat room\n* the message\n* `EChatEntryType`\n* SteamID of the chatter\n\n### \'message\'\nSame arguments as the above two, captures both events. In case of a friend message, the fourth argument will be undefined.\n\n### \'chatStateChange\'\n* `EChatMemberStateChange`\n* SteamID of the user who entered or left the chat room, disconnected, or was kicked or banned\n* SteamID of the chat where it happened\n* SteamID of the user who kicked or banned\n\nSomething happened in a chat you are in. For example, if the first argument equals `Steam.EChatMemberStateChange.Kicked`, then someone got kicked.\n\n### \'tradeOffers\'\n* New count (can be zero)\n\nYour number of pending incoming trade offers has changed.\n\n### \'tradeProposed\'\n* Trade ID\n* SteamID of the user who proposed the trade\n\nYou were offered a trade.\n\n### \'tradeResult\'\n* Trade ID\n* `EEconTradeResponse`\n* SteamID of the user you sent a trade request\n\nListen for this event if you are the one sending a trade request.\n\n### \'sessionStart\'\n* SteamID of the other party\n\nThe trade is now available at http://steamcommunity.com/trade/{SteamID}. You\'ll need the cookies from [webLogOn](#weblogoncallback). You can use [node-steam-trade](https://github.com/seishun/node-steam-trade) to automate the trade itself.\n\n### \'announcement\'\n* SteamID of the group\n* headline\n\nUse the group\'s RSS feed to get the body of the announcement if you want it.\n\n### \'fromGC\'\n* appID\n* `type` - masked accordingly for protobuf\n* the message body\n* optional extra args\n\nA message has been received from GC. The extra arguments are the same as passed to [toGC](#togcappid-type-body-callback) if this message is a JobID-based response to it.\n',
+72 silly resolved     readmeFilename: 'README.md',
+72 silly resolved     bugs: { url: 'https://github.com/seishun/node-steam/issues' },
+72 silly resolved     homepage: 'https://github.com/seishun/node-steam',
+72 silly resolved     _id: 'steam@0.6.6',
+72 silly resolved     _shasum: '5c136ca07b08ace2e70c24b6b7d757a8aeada2b0',
+72 silly resolved     _from: 'steam@',
+72 silly resolved     _resolved: 'https://registry.npmjs.org/steam/-/steam-0.6.6.tgz' } ]
+73 info install steam@0.6.6 into g:\nodejs
+74 info installOne steam@0.6.6
+75 info g:\nodejs\node_modules\steam unbuild
+76 verbose tar unpack C:\Users\Frederik\AppData\Roaming\npm-cache\steam\0.6.6\package.tgz
+77 silly lockFile 942c7b92-tar-g-nodejs-node-modules-steam tar://g:\nodejs\node_modules\steam
+78 verbose lock tar://g:\nodejs\node_modules\steam C:\Users\Frederik\AppData\Roaming\npm-cache\942c7b92-tar-g-nodejs-node-modules-steam.lock
+79 silly lockFile a6238a59-pm-cache-steam-0-6-6-package-tgz tar://C:\Users\Frederik\AppData\Roaming\npm-cache\steam\0.6.6\package.tgz
+80 verbose lock tar://C:\Users\Frederik\AppData\Roaming\npm-cache\steam\0.6.6\package.tgz C:\Users\Frederik\AppData\Roaming\npm-cache\a6238a59-pm-cache-steam-0-6-6-package-tgz.lock
+81 silly gunzTarPerm modes [ '755', '644' ]
+82 silly gunzTarPerm extractEntry package.json
+83 silly gunzTarPerm extractEntry .npmignore
+84 silly gunzTarPerm extractEntry README.md
+85 silly gunzTarPerm extractEntry LICENSE
+86 silly gunzTarPerm extractEntry example.js
+87 silly gunzTarPerm extractEntry lib/VDF.js
+88 silly gunzTarPerm extractEntry lib/connection.js
+89 silly gunzTarPerm extractEntry lib/crypto_helper.js
+90 silly gunzTarPerm extractEntry lib/servers.js
+91 silly gunzTarPerm extractEntry lib/steamID.js
+92 silly gunzTarPerm extractEntry lib/steam_client.js
+93 silly gunzTarPerm extractEntry lib/generated/steam_language.js
+94 silly gunzTarPerm extractEntry lib/generated/steam_language_internal.js
+95 silly gunzTarPerm extractEntry lib/generated/GC/steam_msg_base.desc
+96 silly gunzTarPerm extractEntry lib/generated/steam_msg.desc
+97 silly gunzTarPerm extractEntry lib/handlers/friends.js
+98 silly gunzTarPerm extractEntry lib/handlers/game_coordinator.js
+99 silly gunzTarPerm extractEntry lib/handlers/trading.js
+100 silly gunzTarPerm extractEntry lib/handlers/user.js
+101 silly gunzTarPerm extractEntry lib/public.pub
+102 silly lockFile 942c7b92-tar-g-nodejs-node-modules-steam tar://g:\nodejs\node_modules\steam
+103 silly lockFile 942c7b92-tar-g-nodejs-node-modules-steam tar://g:\nodejs\node_modules\steam
+104 silly lockFile a6238a59-pm-cache-steam-0-6-6-package-tgz tar://C:\Users\Frederik\AppData\Roaming\npm-cache\steam\0.6.6\package.tgz
+105 silly lockFile a6238a59-pm-cache-steam-0-6-6-package-tgz tar://C:\Users\Frederik\AppData\Roaming\npm-cache\steam\0.6.6\package.tgz
+106 info preinstall steam@0.6.6
+107 verbose readDependencies using package.json deps
+108 verbose readDependencies using package.json deps
+109 verbose cache add [ 'adm-zip@*', null ]
+110 verbose cache add name=undefined spec="adm-zip@*" args=["adm-zip@*",null]
+111 verbose parsed url { protocol: null,
+111 verbose parsed url   slashes: null,
+111 verbose parsed url   auth: null,
+111 verbose parsed url   host: null,
+111 verbose parsed url   port: null,
+111 verbose parsed url   hostname: null,
+111 verbose parsed url   hash: null,
+111 verbose parsed url   search: null,
+111 verbose parsed url   query: null,
+111 verbose parsed url   pathname: 'adm-zip@*',
+111 verbose parsed url   path: 'adm-zip@*',
+111 verbose parsed url   href: 'adm-zip@*' }
+112 verbose cache add name="adm-zip" spec="*" args=["adm-zip","*"]
+113 verbose parsed url { protocol: null,
+113 verbose parsed url   slashes: null,
+113 verbose parsed url   auth: null,
+113 verbose parsed url   host: null,
+113 verbose parsed url   port: null,
+113 verbose parsed url   hostname: null,
+113 verbose parsed url   hash: null,
+113 verbose parsed url   search: null,
+113 verbose parsed url   query: null,
+113 verbose parsed url   pathname: '*',
+113 verbose parsed url   path: '*',
+113 verbose parsed url   href: '*' }
+114 verbose addNamed [ 'adm-zip', '*' ]
+115 verbose addNamed [ null, '*' ]
+116 silly lockFile 47bd7b0e-adm-zip adm-zip@*
+117 verbose lock adm-zip@* C:\Users\Frederik\AppData\Roaming\npm-cache\47bd7b0e-adm-zip.lock
+118 verbose cache add [ 'buffer-crc32@*', null ]
+119 verbose cache add name=undefined spec="buffer-crc32@*" args=["buffer-crc32@*",null]
+120 verbose parsed url { protocol: null,
+120 verbose parsed url   slashes: null,
+120 verbose parsed url   auth: null,
+120 verbose parsed url   host: null,
+120 verbose parsed url   port: null,
+120 verbose parsed url   hostname: null,
+120 verbose parsed url   hash: null,
+120 verbose parsed url   search: null,
+120 verbose parsed url   query: null,
+120 verbose parsed url   pathname: 'buffer-crc32@*',
+120 verbose parsed url   path: 'buffer-crc32@*',
+120 verbose parsed url   href: 'buffer-crc32@*' }
+121 verbose cache add name="buffer-crc32" spec="*" args=["buffer-crc32","*"]
+122 verbose parsed url { protocol: null,
+122 verbose parsed url   slashes: null,
+122 verbose parsed url   auth: null,
+122 verbose parsed url   host: null,
+122 verbose parsed url   port: null,
+122 verbose parsed url   hostname: null,
+122 verbose parsed url   hash: null,
+122 verbose parsed url   search: null,
+122 verbose parsed url   query: null,
+122 verbose parsed url   pathname: '*',
+122 verbose parsed url   path: '*',
+122 verbose parsed url   href: '*' }
+123 verbose addNamed [ 'buffer-crc32', '*' ]
+124 verbose addNamed [ null, '*' ]
+125 silly lockFile 21fa13c6-buffer-crc32 buffer-crc32@*
+126 verbose lock buffer-crc32@* C:\Users\Frederik\AppData\Roaming\npm-cache\21fa13c6-buffer-crc32.lock
+127 verbose cache add [ 'protobuf@*', null ]
+128 verbose cache add name=undefined spec="protobuf@*" args=["protobuf@*",null]
+129 verbose parsed url { protocol: null,
+129 verbose parsed url   slashes: null,
+129 verbose parsed url   auth: null,
+129 verbose parsed url   host: null,
+129 verbose parsed url   port: null,
+129 verbose parsed url   hostname: null,
+129 verbose parsed url   hash: null,
+129 verbose parsed url   search: null,
+129 verbose parsed url   query: null,
+129 verbose parsed url   pathname: 'protobuf@*',
+129 verbose parsed url   path: 'protobuf@*',
+129 verbose parsed url   href: 'protobuf@*' }
+130 verbose cache add name="protobuf" spec="*" args=["protobuf","*"]
+131 verbose parsed url { protocol: null,
+131 verbose parsed url   slashes: null,
+131 verbose parsed url   auth: null,
+131 verbose parsed url   host: null,
+131 verbose parsed url   port: null,
+131 verbose parsed url   hostname: null,
+131 verbose parsed url   hash: null,
+131 verbose parsed url   search: null,
+131 verbose parsed url   query: null,
+131 verbose parsed url   pathname: '*',
+131 verbose parsed url   path: '*',
+131 verbose parsed url   href: '*' }
+132 verbose addNamed [ 'protobuf', '*' ]
+133 verbose addNamed [ null, '*' ]
+134 silly lockFile 1f913069-protobuf protobuf@*
+135 verbose lock protobuf@* C:\Users\Frederik\AppData\Roaming\npm-cache\1f913069-protobuf.lock
+136 verbose cache add [ 'ref@*', null ]
+137 verbose cache add name=undefined spec="ref@*" args=["ref@*",null]
+138 verbose parsed url { protocol: null,
+138 verbose parsed url   slashes: null,
+138 verbose parsed url   auth: null,
+138 verbose parsed url   host: null,
+138 verbose parsed url   port: null,
+138 verbose parsed url   hostname: null,
+138 verbose parsed url   hash: null,
+138 verbose parsed url   search: null,
+138 verbose parsed url   query: null,
+138 verbose parsed url   pathname: 'ref@*',
+138 verbose parsed url   path: 'ref@*',
+138 verbose parsed url   href: 'ref@*' }
+139 verbose cache add name="ref" spec="*" args=["ref","*"]
+140 verbose parsed url { protocol: null,
+140 verbose parsed url   slashes: null,
+140 verbose parsed url   auth: null,
+140 verbose parsed url   host: null,
+140 verbose parsed url   port: null,
+140 verbose parsed url   hostname: null,
+140 verbose parsed url   hash: null,
+140 verbose parsed url   search: null,
+140 verbose parsed url   query: null,
+140 verbose parsed url   pathname: '*',
+140 verbose parsed url   path: '*',
+140 verbose parsed url   href: '*' }
+141 verbose addNamed [ 'ref', '*' ]
+142 verbose addNamed [ null, '*' ]
+143 silly lockFile 905fdac8-ref ref@*
+144 verbose lock ref@* C:\Users\Frederik\AppData\Roaming\npm-cache\905fdac8-ref.lock
+145 verbose cache add [ 'ursa@*', null ]
+146 verbose cache add name=undefined spec="ursa@*" args=["ursa@*",null]
+147 verbose parsed url { protocol: null,
+147 verbose parsed url   slashes: null,
+147 verbose parsed url   auth: null,
+147 verbose parsed url   host: null,
+147 verbose parsed url   port: null,
+147 verbose parsed url   hostname: null,
+147 verbose parsed url   hash: null,
+147 verbose parsed url   search: null,
+147 verbose parsed url   query: null,
+147 verbose parsed url   pathname: 'ursa@*',
+147 verbose parsed url   path: 'ursa@*',
+147 verbose parsed url   href: 'ursa@*' }
+148 verbose cache add name="ursa" spec="*" args=["ursa","*"]
+149 verbose parsed url { protocol: null,
+149 verbose parsed url   slashes: null,
+149 verbose parsed url   auth: null,
+149 verbose parsed url   host: null,
+149 verbose parsed url   port: null,
+149 verbose parsed url   hostname: null,
+149 verbose parsed url   hash: null,
+149 verbose parsed url   search: null,
+149 verbose parsed url   query: null,
+149 verbose parsed url   pathname: '*',
+149 verbose parsed url   path: '*',
+149 verbose parsed url   href: '*' }
+150 verbose addNamed [ 'ursa', '*' ]
+151 verbose addNamed [ null, '*' ]
+152 silly lockFile 537bca9f-ursa ursa@*
+153 verbose lock ursa@* C:\Users\Frederik\AppData\Roaming\npm-cache\537bca9f-ursa.lock
+154 silly addNameRange { name: 'adm-zip', range: '*', hasData: false }
+155 silly addNameRange { name: 'buffer-crc32', range: '*', hasData: false }
+156 silly addNameRange { name: 'protobuf', range: '*', hasData: false }
+157 silly addNameRange { name: 'ref', range: '*', hasData: false }
+158 verbose url raw adm-zip
+159 verbose url resolving [ 'https://registry.npmjs.org/', './adm-zip' ]
+160 verbose url resolved https://registry.npmjs.org/adm-zip
+161 info trying registry request attempt 1 at 23:59:23
+162 http GET https://registry.npmjs.org/adm-zip
+163 verbose url raw protobuf
+164 verbose url resolving [ 'https://registry.npmjs.org/', './protobuf' ]
+165 verbose url resolved https://registry.npmjs.org/protobuf
+166 info trying registry request attempt 1 at 23:59:23
+167 http GET https://registry.npmjs.org/protobuf
+168 silly addNameRange { name: 'ursa', range: '*', hasData: false }
+169 verbose url raw ref
+170 verbose url resolving [ 'https://registry.npmjs.org/', './ref' ]
+171 verbose url resolved https://registry.npmjs.org/ref
+172 info trying registry request attempt 1 at 23:59:23
+173 http GET https://registry.npmjs.org/ref
+174 verbose url raw ursa
+175 verbose url resolving [ 'https://registry.npmjs.org/', './ursa' ]
+176 verbose url resolved https://registry.npmjs.org/ursa
+177 info trying registry request attempt 1 at 23:59:23
+178 http GET https://registry.npmjs.org/ursa
+179 verbose url raw buffer-crc32
+180 verbose url resolving [ 'https://registry.npmjs.org/', './buffer-crc32' ]
+181 verbose url resolved https://registry.npmjs.org/buffer-crc32
+182 info trying registry request attempt 1 at 23:59:23
+183 verbose etag "AL1Z0BZDAY2SP0L2IUDLDNGE5"
+184 http GET https://registry.npmjs.org/buffer-crc32
+185 http 304 https://registry.npmjs.org/buffer-crc32
+186 silly registry.get cb [ 304,
+186 silly registry.get   { date: 'Tue, 27 May 2014 21:59:12 GMT',
+186 silly registry.get     server: 'Apache',
+186 silly registry.get     via: '1.1 varnish',
+186 silly registry.get     'last-modified': 'Tue, 27 May 2014 21:59:12 GMT',
+186 silly registry.get     'cache-control': 'max-age=1',
+186 silly registry.get     etag: '"AL1Z0BZDAY2SP0L2IUDLDNGE5"',
+186 silly registry.get     'x-served-by': 'cache-fra1228-FRA',
+186 silly registry.get     'x-cache': 'HIT',
+186 silly registry.get     'x-cache-hits': '1',
+186 silly registry.get     'x-timer': 'S1401227952.127611,VS0,VE100',
+186 silly registry.get     vary: 'Accept',
+186 silly registry.get     'content-length': '0',
+186 silly registry.get     'keep-alive': 'timeout=10, max=50',
+186 silly registry.get     connection: 'Keep-Alive' } ]
+187 verbose etag buffer-crc32 from cache
+188 silly addNameRange number 2 { name: 'buffer-crc32', range: '*', hasData: true }
+189 silly addNameRange versions [ 'buffer-crc32', [ '0.1.0', '0.1.1', '0.2.0', '0.2.1' ] ]
+190 verbose addNamed [ 'buffer-crc32', '0.2.1' ]
+191 verbose addNamed [ '0.2.1', '0.2.1' ]
+192 silly lockFile 057d0d26-buffer-crc32-0-2-1 buffer-crc32@0.2.1
+193 verbose lock buffer-crc32@0.2.1 C:\Users\Frederik\AppData\Roaming\npm-cache\057d0d26-buffer-crc32-0-2-1.lock
+194 silly lockFile 057d0d26-buffer-crc32-0-2-1 buffer-crc32@0.2.1
+195 silly lockFile 057d0d26-buffer-crc32-0-2-1 buffer-crc32@0.2.1
+196 silly lockFile 21fa13c6-buffer-crc32 buffer-crc32@*
+197 silly lockFile 21fa13c6-buffer-crc32 buffer-crc32@*
+198 http 200 https://registry.npmjs.org/adm-zip
+199 silly registry.get cb [ 200,
+199 silly registry.get   { date: 'Tue, 27 May 2014 21:59:12 GMT',
+199 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+199 silly registry.get     etag: '"CWDSA5YY3WV58TH1S1JT36RDT"',
+199 silly registry.get     'content-type': 'application/json',
+199 silly registry.get     via: '1.1 varnish',
+199 silly registry.get     'cache-control': 'max-age=1',
+199 silly registry.get     'content-length': '17656',
+199 silly registry.get     'accept-ranges': 'bytes',
+199 silly registry.get     age: '106',
+199 silly registry.get     'x-served-by': 'cache-v42-ASH, cache-fra1230-FRA',
+199 silly registry.get     'x-cache': 'HIT, MISS',
+199 silly registry.get     'x-cache-hits': '1, 0',
+199 silly registry.get     'x-timer': 'S1401227952.134007,VS0,VE88',
+199 silly registry.get     vary: 'Accept',
+199 silly registry.get     'keep-alive': 'timeout=10, max=50',
+199 silly registry.get     connection: 'Keep-Alive' } ]
+200 silly addNameRange number 2 { name: 'adm-zip', range: '*', hasData: true }
+201 silly addNameRange versions [ 'adm-zip',
+201 silly addNameRange   [ '0.1.1',
+201 silly addNameRange     '0.1.2',
+201 silly addNameRange     '0.1.3',
+201 silly addNameRange     '0.1.4',
+201 silly addNameRange     '0.1.5',
+201 silly addNameRange     '0.1.6',
+201 silly addNameRange     '0.1.7',
+201 silly addNameRange     '0.1.8',
+201 silly addNameRange     '0.1.9',
+201 silly addNameRange     '0.2.0',
+201 silly addNameRange     '0.2.1',
+201 silly addNameRange     '0.4.3',
+201 silly addNameRange     '0.4.4' ] ]
+202 verbose addNamed [ 'adm-zip', '0.4.4' ]
+203 verbose addNamed [ '0.4.4', '0.4.4' ]
+204 silly lockFile 54f7ada5-adm-zip-0-4-4 adm-zip@0.4.4
+205 verbose lock adm-zip@0.4.4 C:\Users\Frederik\AppData\Roaming\npm-cache\54f7ada5-adm-zip-0-4-4.lock
+206 silly lockFile 03c4f3c6-js-org-adm-zip-adm-zip-0-4-4-tgz https://registry.npmjs.org/adm-zip/-/adm-zip-0.4.4.tgz
+207 verbose lock https://registry.npmjs.org/adm-zip/-/adm-zip-0.4.4.tgz C:\Users\Frederik\AppData\Roaming\npm-cache\03c4f3c6-js-org-adm-zip-adm-zip-0-4-4-tgz.lock
+208 verbose addRemoteTarball [ 'https://registry.npmjs.org/adm-zip/-/adm-zip-0.4.4.tgz',
+208 verbose addRemoteTarball   'a61ed5ae6905c3aea58b3a657d25033091052736' ]
+209 info retry fetch attempt 1 at 23:59:23
+210 verbose fetch to= C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227963881-0.1357430738862604\tmp.tgz
+211 http GET https://registry.npmjs.org/adm-zip/-/adm-zip-0.4.4.tgz
+212 http 200 https://registry.npmjs.org/protobuf
+213 silly registry.get cb [ 200,
+213 silly registry.get   { date: 'Tue, 27 May 2014 21:59:12 GMT',
+213 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+213 silly registry.get     etag: '"7K3OOWZB6YIY753W1I9VS4ZX6"',
+213 silly registry.get     'content-type': 'application/json',
+213 silly registry.get     via: '1.1 varnish',
+213 silly registry.get     'cache-control': 'max-age=1',
+213 silly registry.get     'content-length': '11461',
+213 silly registry.get     'accept-ranges': 'bytes',
+213 silly registry.get     age: '666',
+213 silly registry.get     'x-served-by': 'cache-v42-ASH, cache-fra1235-FRA',
+213 silly registry.get     'x-cache': 'HIT, MISS',
+213 silly registry.get     'x-cache-hits': '1, 0',
+213 silly registry.get     'x-timer': 'S1401227952.128187,VS0,VE187',
+213 silly registry.get     vary: 'Accept',
+213 silly registry.get     'keep-alive': 'timeout=10, max=50',
+213 silly registry.get     connection: 'Keep-Alive' } ]
+214 silly addNameRange number 2 { name: 'protobuf', range: '*', hasData: true }
+215 silly addNameRange versions [ 'protobuf',
+215 silly addNameRange   [ '0.3.0',
+215 silly addNameRange     '0.3.1',
+215 silly addNameRange     '0.3.2',
+215 silly addNameRange     '0.8.0',
+215 silly addNameRange     '0.8.2',
+215 silly addNameRange     '0.8.4',
+215 silly addNameRange     '0.8.6',
+215 silly addNameRange     '0.8.7',
+215 silly addNameRange     '0.8.8' ] ]
+216 verbose addNamed [ 'protobuf', '0.8.8' ]
+217 verbose addNamed [ '0.8.8', '0.8.8' ]
+218 silly lockFile 444add7c-protobuf-0-8-8 protobuf@0.8.8
+219 verbose lock protobuf@0.8.8 C:\Users\Frederik\AppData\Roaming\npm-cache\444add7c-protobuf-0-8-8.lock
+220 silly lockFile f7426a32--org-protobuf-protobuf-0-8-8-tgz https://registry.npmjs.org/protobuf/-/protobuf-0.8.8.tgz
+221 verbose lock https://registry.npmjs.org/protobuf/-/protobuf-0.8.8.tgz C:\Users\Frederik\AppData\Roaming\npm-cache\f7426a32--org-protobuf-protobuf-0-8-8-tgz.lock
+222 verbose addRemoteTarball [ 'https://registry.npmjs.org/protobuf/-/protobuf-0.8.8.tgz',
+222 verbose addRemoteTarball   '7f7447e915506ce4ca135a91b78931f4baa4b1d7' ]
+223 info retry fetch attempt 1 at 23:59:23
+224 verbose fetch to= C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227963975-0.5364236324094236\tmp.tgz
+225 http GET https://registry.npmjs.org/protobuf/-/protobuf-0.8.8.tgz
+226 http 200 https://registry.npmjs.org/adm-zip/-/adm-zip-0.4.4.tgz
+227 http 200 https://registry.npmjs.org/ref
+228 silly registry.get cb [ 200,
+228 silly registry.get   { date: 'Tue, 27 May 2014 21:59:12 GMT',
+228 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+228 silly registry.get     etag: '"5T37ZH17K9IMINRS4FZFJ4D7S"',
+228 silly registry.get     'content-type': 'application/json',
+228 silly registry.get     via: '1.1 varnish',
+228 silly registry.get     'cache-control': 'max-age=1',
+228 silly registry.get     'content-length': '34649',
+228 silly registry.get     'accept-ranges': 'bytes',
+228 silly registry.get     age: '2437',
+228 silly registry.get     'x-served-by': 'cache-v37-ASH, cache-fra1229-FRA',
+228 silly registry.get     'x-cache': 'HIT, MISS',
+228 silly registry.get     'x-cache-hits': '1, 0',
+228 silly registry.get     'x-timer': 'S1401227952.140342,VS0,VE174',
+228 silly registry.get     vary: 'Accept',
+228 silly registry.get     'keep-alive': 'timeout=10, max=50',
+228 silly registry.get     connection: 'Keep-Alive' } ]
+229 silly addNameRange number 2 { name: 'ref', range: '*', hasData: true }
+230 silly addNameRange versions [ 'ref',
+230 silly addNameRange   [ '0.0.1',
+230 silly addNameRange     '0.0.2',
+230 silly addNameRange     '0.0.3',
+230 silly addNameRange     '0.0.4',
+230 silly addNameRange     '0.0.5',
+230 silly addNameRange     '0.0.6',
+230 silly addNameRange     '0.0.7',
+230 silly addNameRange     '0.0.8',
+230 silly addNameRange     '0.0.9',
+230 silly addNameRange     '0.0.10',
+230 silly addNameRange     '0.0.11',
+230 silly addNameRange     '0.0.12',
+230 silly addNameRange     '0.0.13',
+230 silly addNameRange     '0.0.14',
+230 silly addNameRange     '0.0.15',
+230 silly addNameRange     '0.0.16',
+230 silly addNameRange     '0.0.17',
+230 silly addNameRange     '0.0.18',
+230 silly addNameRange     '0.0.19',
+230 silly addNameRange     '0.0.20',
+230 silly addNameRange     '0.1.0',
+230 silly addNameRange     '0.1.1',
+230 silly addNameRange     '0.1.2',
+230 silly addNameRange     '0.1.3',
+230 silly addNameRange     '0.2.0',
+230 silly addNameRange     '0.2.1' ] ]
+231 verbose addNamed [ 'ref', '0.2.1' ]
+232 verbose addNamed [ '0.2.1', '0.2.1' ]
+233 silly lockFile 5a048d2a-ref-0-2-1 ref@0.2.1
+234 verbose lock ref@0.2.1 C:\Users\Frederik\AppData\Roaming\npm-cache\5a048d2a-ref-0-2-1.lock
+235 silly lockFile 306136b7-stry-npmjs-org-ref-ref-0-2-1-tgz https://registry.npmjs.org/ref/-/ref-0.2.1.tgz
+236 verbose lock https://registry.npmjs.org/ref/-/ref-0.2.1.tgz C:\Users\Frederik\AppData\Roaming\npm-cache\306136b7-stry-npmjs-org-ref-ref-0-2-1-tgz.lock
+237 verbose addRemoteTarball [ 'https://registry.npmjs.org/ref/-/ref-0.2.1.tgz',
+237 verbose addRemoteTarball   '2f6d9148652e3fd902dd864f3088751c225ac14a' ]
+238 info retry fetch attempt 1 at 23:59:24
+239 verbose fetch to= C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227964007-0.9630472110584378\tmp.tgz
+240 http GET https://registry.npmjs.org/ref/-/ref-0.2.1.tgz
+241 http 200 https://registry.npmjs.org/ursa
+242 silly registry.get cb [ 200,
+242 silly registry.get   { date: 'Tue, 27 May 2014 21:59:12 GMT',
+242 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+242 silly registry.get     etag: '"8DN7728SJDDSMZ3DEDQGGQUDP"',
+242 silly registry.get     'content-type': 'application/json',
+242 silly registry.get     via: '1.1 varnish',
+242 silly registry.get     'cache-control': 'max-age=1',
+242 silly registry.get     'content-length': '64267',
+242 silly registry.get     'accept-ranges': 'bytes',
+242 silly registry.get     age: '3101',
+242 silly registry.get     'x-served-by': 'cache-v44-ASH, cache-fra1221-FRA',
+242 silly registry.get     'x-cache': 'HIT, MISS',
+242 silly registry.get     'x-cache-hits': '1, 0',
+242 silly registry.get     'x-timer': 'S1401227952.127846,VS0,VE96',
+242 silly registry.get     vary: 'Accept',
+242 silly registry.get     'keep-alive': 'timeout=10, max=50',
+242 silly registry.get     connection: 'Keep-Alive' } ]
+243 silly addNameRange number 2 { name: 'ursa', range: '*', hasData: true }
+244 silly addNameRange versions [ 'ursa',
+244 silly addNameRange   [ '0.4.10',
+244 silly addNameRange     '0.4.11',
+244 silly addNameRange     '0.4.12',
+244 silly addNameRange     '0.4.13',
+244 silly addNameRange     '0.6.0',
+244 silly addNameRange     '0.6.1',
+244 silly addNameRange     '0.6.2',
+244 silly addNameRange     '0.6.3',
+244 silly addNameRange     '0.6.4',
+244 silly addNameRange     '0.6.5',
+244 silly addNameRange     '0.6.6',
+244 silly addNameRange     '0.6.7',
+244 silly addNameRange     '0.6.8',
+244 silly addNameRange     '0.6.9',
+244 silly addNameRange     '0.7.0',
+244 silly addNameRange     '0.8.0' ] ]
+245 verbose addNamed [ 'ursa', '0.8.0' ]
+246 verbose addNamed [ '0.8.0', '0.8.0' ]
+247 silly lockFile ffd8e17f-ursa-0-8-0 ursa@0.8.0
+248 verbose lock ursa@0.8.0 C:\Users\Frederik\AppData\Roaming\npm-cache\ffd8e17f-ursa-0-8-0.lock
+249 silly lockFile 4d44d97a-ry-npmjs-org-ursa-ursa-0-8-0-tgz https://registry.npmjs.org/ursa/-/ursa-0.8.0.tgz
+250 verbose lock https://registry.npmjs.org/ursa/-/ursa-0.8.0.tgz C:\Users\Frederik\AppData\Roaming\npm-cache\4d44d97a-ry-npmjs-org-ursa-ursa-0-8-0-tgz.lock
+251 verbose addRemoteTarball [ 'https://registry.npmjs.org/ursa/-/ursa-0.8.0.tgz',
+251 verbose addRemoteTarball   '05d69d05c9e217025e3d10231b4f7848ecc82356' ]
+252 info retry fetch attempt 1 at 23:59:24
+253 verbose fetch to= C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227964052-0.4608411700464785\tmp.tgz
+254 http GET https://registry.npmjs.org/ursa/-/ursa-0.8.0.tgz
+255 http 200 https://registry.npmjs.org/protobuf/-/protobuf-0.8.8.tgz
+256 verbose tar unpack C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227963881-0.1357430738862604\tmp.tgz
+257 silly lockFile 5e54d461--npm-cache-adm-zip-0-4-4-package tar://C:\Users\Frederik\AppData\Roaming\npm-cache\adm-zip\0.4.4\package
+258 verbose lock tar://C:\Users\Frederik\AppData\Roaming\npm-cache\adm-zip\0.4.4\package C:\Users\Frederik\AppData\Roaming\npm-cache\5e54d461--npm-cache-adm-zip-0-4-4-package.lock
+259 silly lockFile 84add981-63881-0-1357430738862604-tmp-tgz tar://C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227963881-0.1357430738862604\tmp.tgz
+260 verbose lock tar://C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227963881-0.1357430738862604\tmp.tgz C:\Users\Frederik\AppData\Roaming\npm-cache\84add981-63881-0-1357430738862604-tmp-tgz.lock
+261 silly gunzTarPerm modes [ '755', '644' ]
+262 silly gunzTarPerm extractEntry package.json
+263 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+264 silly gunzTarPerm extractEntry README.md
+265 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+266 silly gunzTarPerm extractEntry zipEntry.js
+267 silly gunzTarPerm modified mode [ 'zipEntry.js', 438, 420 ]
+268 silly gunzTarPerm extractEntry adm-zip.js
+269 silly gunzTarPerm modified mode [ 'adm-zip.js', 438, 420 ]
+270 silly gunzTarPerm extractEntry zipFile.js
+271 silly gunzTarPerm modified mode [ 'zipFile.js', 438, 420 ]
+272 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+273 silly gunzTarPerm modified mode [ '.idea/scopes/scope_settings.xml', 438, 420 ]
+274 silly gunzTarPerm extractEntry methods/deflater.js
+275 silly gunzTarPerm modified mode [ 'methods/deflater.js', 438, 420 ]
+276 silly gunzTarPerm extractEntry methods/index.js
+277 silly gunzTarPerm modified mode [ 'methods/index.js', 438, 420 ]
+278 silly gunzTarPerm extractEntry methods/inflater.js
+279 silly gunzTarPerm modified mode [ 'methods/inflater.js', 438, 420 ]
+280 silly gunzTarPerm extractEntry test/index.js
+281 silly gunzTarPerm modified mode [ 'test/index.js', 438, 420 ]
+282 silly gunzTarPerm extractEntry test/assets/attributes_test/asd/New Text Document.txt
+283 silly gunzTarPerm modified mode [ 'test/assets/attributes_test/asd/New Text Document.txt',
+283 silly gunzTarPerm   438,
+283 silly gunzTarPerm   420 ]
+284 silly gunzTarPerm extractEntry test/assets/attributes_test/blank file.txt
+285 silly gunzTarPerm modified mode [ 'test/assets/attributes_test/blank file.txt', 438, 420 ]
+286 silly gunzTarPerm extractEntry test/assets/attributes_test/New folder/hidden.txt
+287 silly gunzTarPerm modified mode [ 'test/assets/attributes_test/New folder/hidden.txt', 438, 420 ]
+288 silly gunzTarPerm extractEntry test/assets/attributes_test/New folder/hidden_readonly.txt
+289 silly gunzTarPerm modified mode [ 'test/assets/attributes_test/New folder/hidden_readonly.txt',
+289 silly gunzTarPerm   438,
+289 silly gunzTarPerm   420 ]
+290 silly gunzTarPerm extractEntry test/assets/attributes_test/New folder/readonly.txt
+291 silly gunzTarPerm modified mode [ 'test/assets/attributes_test/New folder/readonly.txt',
+291 silly gunzTarPerm   438,
+291 silly gunzTarPerm   420 ]
+292 silly gunzTarPerm extractEntry test/assets/attributes_test/New folder/somefile.txt
+293 silly gunzTarPerm modified mode [ 'test/assets/attributes_test/New folder/somefile.txt',
+293 silly gunzTarPerm   438,
+293 silly gunzTarPerm   420 ]
+294 silly gunzTarPerm extractEntry test/assets/attributes_test.zip
+295 silly gunzTarPerm modified mode [ 'test/assets/attributes_test.zip', 438, 420 ]
+296 silly gunzTarPerm extractEntry test/assets/fast.zip
+297 silly gunzTarPerm modified mode [ 'test/assets/fast.zip', 438, 420 ]
+298 silly gunzTarPerm extractEntry test/assets/fastest.zip
+299 silly gunzTarPerm modified mode [ 'test/assets/fastest.zip', 438, 420 ]
+300 silly gunzTarPerm extractEntry test/assets/linux_arc.zip
+301 silly gunzTarPerm modified mode [ 'test/assets/linux_arc.zip', 438, 420 ]
+302 silly gunzTarPerm extractEntry test/assets/maximum.zip
+303 silly gunzTarPerm modified mode [ 'test/assets/maximum.zip', 438, 420 ]
+304 silly gunzTarPerm extractEntry test/assets/normal.zip
+305 silly gunzTarPerm modified mode [ 'test/assets/normal.zip', 438, 420 ]
+306 silly gunzTarPerm extractEntry test/assets/store.zip
+307 silly gunzTarPerm modified mode [ 'test/assets/store.zip', 438, 420 ]
+308 silly gunzTarPerm extractEntry test/assets/ultra.zip
+309 silly gunzTarPerm modified mode [ 'test/assets/ultra.zip', 438, 420 ]
+310 silly gunzTarPerm extractEntry util/constants.js
+311 silly gunzTarPerm modified mode [ 'util/constants.js', 438, 420 ]
+312 silly gunzTarPerm extractEntry util/errors.js
+313 silly gunzTarPerm modified mode [ 'util/errors.js', 438, 420 ]
+314 silly gunzTarPerm extractEntry util/fattr.js
+315 silly gunzTarPerm modified mode [ 'util/fattr.js', 438, 420 ]
+316 silly gunzTarPerm extractEntry util/index.js
+317 silly gunzTarPerm modified mode [ 'util/index.js', 438, 420 ]
+318 silly gunzTarPerm extractEntry util/utils.js
+319 silly gunzTarPerm modified mode [ 'util/utils.js', 438, 420 ]
+320 silly gunzTarPerm extractEntry headers/entryHeader.js
+321 silly gunzTarPerm modified mode [ 'headers/entryHeader.js', 438, 420 ]
+322 silly gunzTarPerm extractEntry headers/index.js
+323 silly gunzTarPerm modified mode [ 'headers/index.js', 438, 420 ]
+324 silly gunzTarPerm extractEntry headers/mainHeader.js
+325 silly gunzTarPerm modified mode [ 'headers/mainHeader.js', 438, 420 ]
+326 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+327 silly gunzTarPerm modified mode [ 'MIT-LICENSE.txt', 438, 420 ]
+328 http 200 https://registry.npmjs.org/ursa/-/ursa-0.8.0.tgz
+329 verbose tar unpack C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227964052-0.4608411700464785\tmp.tgz
+330 silly lockFile a4d94afe-ing-npm-cache-ursa-0-8-0-package tar://C:\Users\Frederik\AppData\Roaming\npm-cache\ursa\0.8.0\package
+331 verbose lock tar://C:\Users\Frederik\AppData\Roaming\npm-cache\ursa\0.8.0\package C:\Users\Frederik\AppData\Roaming\npm-cache\a4d94afe-ing-npm-cache-ursa-0-8-0-package.lock
+332 silly lockFile 63ce8eee-64052-0-4608411700464785-tmp-tgz tar://C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227964052-0.4608411700464785\tmp.tgz
+333 verbose lock tar://C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227964052-0.4608411700464785\tmp.tgz C:\Users\Frederik\AppData\Roaming\npm-cache\63ce8eee-64052-0-4608411700464785-tmp-tgz.lock
+334 silly gunzTarPerm modes [ '755', '644' ]
+335 silly gunzTarPerm extractEntry package.json
+336 silly gunzTarPerm extractEntry .npmignore
+337 silly gunzTarPerm extractEntry README.md
+338 silly gunzTarPerm extractEntry install.js
+339 silly gunzTarPerm extractEntry binding.gyp
+340 silly gunzTarPerm extractEntry lib/ursa.js
+341 silly gunzTarPerm extractEntry LICENSE.txt
+342 silly gunzTarPerm extractEntry src/asprintf.cc
+343 silly gunzTarPerm extractEntry src/asprintf.h
+344 silly gunzTarPerm extractEntry src/ursaNative.cc
+345 silly gunzTarPerm extractEntry src/ursaNative.h
+346 silly gunzTarPerm extractEntry test/fixture.js
+347 silly gunzTarPerm extractEntry test/native.js
+348 silly gunzTarPerm extractEntry test/test.js
+349 silly gunzTarPerm extractEntry test/blort-pass.pem
+350 silly gunzTarPerm extractEntry test/blort.pem
+351 silly gunzTarPerm extractEntry test/blort.pub
+352 silly gunzTarPerm extractEntry test/blort.sshpub
+353 silly gunzTarPerm extractEntry test/zorch.pem
+354 silly gunzTarPerm extractEntry test/zorch.pub
+355 silly lockFile a4d94afe-ing-npm-cache-ursa-0-8-0-package tar://C:\Users\Frederik\AppData\Roaming\npm-cache\ursa\0.8.0\package
+356 silly lockFile a4d94afe-ing-npm-cache-ursa-0-8-0-package tar://C:\Users\Frederik\AppData\Roaming\npm-cache\ursa\0.8.0\package
+357 silly lockFile 63ce8eee-64052-0-4608411700464785-tmp-tgz tar://C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227964052-0.4608411700464785\tmp.tgz
+358 silly lockFile 63ce8eee-64052-0-4608411700464785-tmp-tgz tar://C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227964052-0.4608411700464785\tmp.tgz
+359 silly lockFile 4d44d97a-ry-npmjs-org-ursa-ursa-0-8-0-tgz https://registry.npmjs.org/ursa/-/ursa-0.8.0.tgz
+360 silly lockFile 4d44d97a-ry-npmjs-org-ursa-ursa-0-8-0-tgz https://registry.npmjs.org/ursa/-/ursa-0.8.0.tgz
+361 silly lockFile ffd8e17f-ursa-0-8-0 ursa@0.8.0
+362 silly lockFile ffd8e17f-ursa-0-8-0 ursa@0.8.0
+363 silly lockFile 537bca9f-ursa ursa@*
+364 silly lockFile 537bca9f-ursa ursa@*
+365 silly lockFile 5e54d461--npm-cache-adm-zip-0-4-4-package tar://C:\Users\Frederik\AppData\Roaming\npm-cache\adm-zip\0.4.4\package
+366 silly lockFile 5e54d461--npm-cache-adm-zip-0-4-4-package tar://C:\Users\Frederik\AppData\Roaming\npm-cache\adm-zip\0.4.4\package
+367 silly lockFile 84add981-63881-0-1357430738862604-tmp-tgz tar://C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227963881-0.1357430738862604\tmp.tgz
+368 silly lockFile 84add981-63881-0-1357430738862604-tmp-tgz tar://C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227963881-0.1357430738862604\tmp.tgz
+369 silly lockFile 03c4f3c6-js-org-adm-zip-adm-zip-0-4-4-tgz https://registry.npmjs.org/adm-zip/-/adm-zip-0.4.4.tgz
+370 silly lockFile 03c4f3c6-js-org-adm-zip-adm-zip-0-4-4-tgz https://registry.npmjs.org/adm-zip/-/adm-zip-0.4.4.tgz
+371 silly lockFile 54f7ada5-adm-zip-0-4-4 adm-zip@0.4.4
+372 silly lockFile 54f7ada5-adm-zip-0-4-4 adm-zip@0.4.4
+373 silly lockFile 47bd7b0e-adm-zip adm-zip@*
+374 silly lockFile 47bd7b0e-adm-zip adm-zip@*
+375 verbose tar unpack C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227963975-0.5364236324094236\tmp.tgz
+376 silly lockFile 04565b76-npm-cache-protobuf-0-8-8-package tar://C:\Users\Frederik\AppData\Roaming\npm-cache\protobuf\0.8.8\package
+377 verbose lock tar://C:\Users\Frederik\AppData\Roaming\npm-cache\protobuf\0.8.8\package C:\Users\Frederik\AppData\Roaming\npm-cache\04565b76-npm-cache-protobuf-0-8-8-package.lock
+378 silly lockFile 8b5b2573-63975-0-5364236324094236-tmp-tgz tar://C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227963975-0.5364236324094236\tmp.tgz
+379 verbose lock tar://C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227963975-0.5364236324094236\tmp.tgz C:\Users\Frederik\AppData\Roaming\npm-cache\8b5b2573-63975-0-5364236324094236-tmp-tgz.lock
+380 silly gunzTarPerm modes [ '755', '644' ]
+381 silly gunzTarPerm extractEntry package.json
+382 silly gunzTarPerm extractEntry .npmignore
+383 silly gunzTarPerm extractEntry README.md
+384 silly gunzTarPerm extractEntry addon.cc
+385 silly gunzTarPerm extractEntry binding.gyp
+386 silly gunzTarPerm extractEntry example/feeds.js
+387 silly gunzTarPerm extractEntry example/protoservice.js
+388 silly gunzTarPerm extractEntry example/feeds.desc
+389 silly gunzTarPerm extractEntry example/feeds.proto
+390 silly gunzTarPerm extractEntry example/protoservice.cc
+391 silly gunzTarPerm extractEntry example/protoservice.pb.cc
+392 silly gunzTarPerm extractEntry example/protoservice.pb.h
+393 silly gunzTarPerm extractEntry example/protoservice.proto
+394 silly gunzTarPerm extractEntry COPYING
+395 silly gunzTarPerm extractEntry protobuf/CHANGES.txt
+396 silly gunzTarPerm extractEntry protobuf/CONTRIBUTORS.txt
+397 silly gunzTarPerm extractEntry protobuf/COPYING.txt
+398 silly gunzTarPerm extractEntry protobuf/INSTALL.txt
+399 silly gunzTarPerm extractEntry protobuf/README.chromium
+400 silly gunzTarPerm extractEntry protobuf/README.txt
+401 silly gunzTarPerm extractEntry protobuf/config.h
+402 silly gunzTarPerm extractEntry protobuf/protobuf.gyp
+403 silly gunzTarPerm extractEntry protobuf/src/Makefile.am
+404 http 200 https://registry.npmjs.org/ref/-/ref-0.2.1.tgz
+405 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/repeated_field.h
+406 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/parser.cc
+407 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/code_generator.cc
+408 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/command_line_interface.cc
+409 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/command_line_interface.h
+410 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/command_line_interface_unittest.cc
+411 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_helpers.h
+412 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_bootstrap_unittest.cc
+413 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_enum.h
+414 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_enum_field.cc
+415 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_enum_field.h
+416 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_extension.cc
+417 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_extension.h
+418 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_field.cc
+419 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_field.h
+420 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_file.cc
+421 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_file.h
+422 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_generator.cc
+423 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_generator.h
+424 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_helpers.cc
+425 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_enum.cc
+426 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_message.cc
+427 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_message.h
+428 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_message_field.cc
+429 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_message_field.h
+430 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_plugin_unittest.cc
+431 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_primitive_field.cc
+432 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_primitive_field.h
+433 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_service.cc
+434 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_service.h
+435 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_string_field.cc
+436 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_string_field.h
+437 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_test_bad_identifiers.proto
+438 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_unittest.cc
+439 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/importer.cc
+440 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/importer.h
+441 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/importer_unittest.cc
+442 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_helpers.cc
+443 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_enum.cc
+444 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_enum_field.cc
+445 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_enum_field.h
+446 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_extension.cc
+447 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_extension.h
+448 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_field.cc
+449 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_field.h
+450 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_file.cc
+451 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_file.h
+452 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_generator.cc
+453 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_generator.h
+454 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_enum.h
+455 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_helpers.h
+456 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_message.cc
+457 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_message.h
+458 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_message_field.cc
+459 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_message_field.h
+460 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_plugin_unittest.cc
+461 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_primitive_field.cc
+462 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_primitive_field.h
+463 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_service.cc
+464 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_service.h
+465 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_string_field.cc
+466 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_string_field.h
+467 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/main.cc
+468 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/mock_code_generator.cc
+469 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/mock_code_generator.h
+470 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/package_info.h
+471 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/code_generator.h
+472 verbose tar unpack C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227964007-0.9630472110584378\tmp.tgz
+473 silly lockFile 3739f1e3-ming-npm-cache-ref-0-2-1-package tar://C:\Users\Frederik\AppData\Roaming\npm-cache\ref\0.2.1\package
+474 verbose lock tar://C:\Users\Frederik\AppData\Roaming\npm-cache\ref\0.2.1\package C:\Users\Frederik\AppData\Roaming\npm-cache\3739f1e3-ming-npm-cache-ref-0-2-1-package.lock
+475 silly lockFile 008d7366-64007-0-9630472110584378-tmp-tgz tar://C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227964007-0.9630472110584378\tmp.tgz
+476 verbose lock tar://C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227964007-0.9630472110584378\tmp.tgz C:\Users\Frederik\AppData\Roaming\npm-cache\008d7366-64007-0-9630472110584378-tmp-tgz.lock
+477 silly gunzTarPerm modes [ '755', '644' ]
+478 silly gunzTarPerm extractEntry package.json
+479 silly gunzTarPerm extractEntry .npmignore
+480 silly gunzTarPerm extractEntry README.md
+481 silly gunzTarPerm extractEntry test/address.js
+482 silly gunzTarPerm extractEntry test/char.js
+483 silly gunzTarPerm extractEntry test/coerce.js
+484 silly gunzTarPerm extractEntry test/int64.js
+485 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/parser.h
+486 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/parser_unittest.cc
+487 silly gunzTarPerm extractEntry test/bool.js
+488 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/plugin.cc
+489 silly gunzTarPerm extractEntry test/object.js
+490 silly gunzTarPerm extractEntry test/pointer.js
+491 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/plugin.h
+492 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/plugin.pb.cc
+493 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/plugin.pb.h
+494 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/plugin.proto
+495 silly gunzTarPerm extractEntry test/ref-deref.js
+496 silly gunzTarPerm extractEntry test/reinterpret.js
+497 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/python/python_generator.cc
+498 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/python/python_generator.h
+499 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/python/python_plugin_unittest.cc
+500 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/subprocess.cc
+501 silly gunzTarPerm extractEntry test/string.js
+502 silly gunzTarPerm extractEntry test/alloc.js
+503 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/subprocess.h
+504 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/test_plugin.cc
+505 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/zip_output_unittest.sh
+506 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/zip_writer.cc
+507 silly gunzTarPerm extractEntry test/types.js
+508 silly gunzTarPerm extractEntry test/isNull.js
+509 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/zip_writer.h
+510 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/descriptor.h
+511 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/descriptor.pb.cc
+512 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/descriptor.pb.h
+513 silly gunzTarPerm extractEntry appveyor.yml
+514 silly gunzTarPerm extractEntry binding.gyp
+515 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/descriptor.proto
+516 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/descriptor_database.cc
+517 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/descriptor_database.h
+518 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/descriptor_database_unittest.cc
+519 silly gunzTarPerm extractEntry .travis.yml
+520 silly gunzTarPerm extractEntry lib/ref.js
+521 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/descriptor_unittest.cc
+522 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/dynamic_message.cc
+523 silly gunzTarPerm extractEntry src/binding.cc
+524 silly gunzTarPerm extractEntry History.md
+525 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/dynamic_message.h
+526 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/dynamic_message_unittest.cc
+527 silly gunzTarPerm extractEntry docs/compile.js
+528 silly gunzTarPerm extractEntry docs/gh-pages.sh
+529 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/extension_set.cc
+530 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/extension_set.h
+531 silly gunzTarPerm extractEntry docs/images/apple-touch-icon-114x114.png
+532 silly gunzTarPerm extractEntry docs/images/apple-touch-icon-72x72.png
+533 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/extension_set_heavy.cc
+534 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/extension_set_unittest.cc
+535 silly gunzTarPerm extractEntry docs/images/apple-touch-icon.png
+536 silly gunzTarPerm extractEntry docs/images/favicon.ico
+537 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/generated_message_reflection.cc
+538 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/generated_message_reflection.h
+539 silly gunzTarPerm extractEntry docs/images/ref.pxm
+540 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/generated_message_reflection_unittest.cc
+541 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/generated_message_util.cc
+542 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/generated_message_util.h
+543 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/printer_unittest.cc
+544 silly gunzTarPerm extractEntry docs/index.jade
+545 silly gunzTarPerm extractEntry docs/scripts/jquery-1.7.2.min.js
+546 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/coded_stream.cc
+547 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/coded_stream_inl.h
+548 silly gunzTarPerm extractEntry docs/scripts/main.js
+549 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/coded_stream_unittest.cc
+550 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/gzip_stream.cc
+551 silly gunzTarPerm extractEntry docs/stylesheets/base.css
+552 silly gunzTarPerm extractEntry docs/stylesheets/layout.css
+553 silly gunzTarPerm extractEntry docs/stylesheets/skeleton.css
+554 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/gzip_stream.h
+555 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/gzip_stream_unittest.sh
+556 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/package_info.h
+557 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/printer.cc
+558 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/printer.h
+559 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/coded_stream.h
+560 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/tokenizer.cc
+561 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/tokenizer.h
+562 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/tokenizer_unittest.cc
+563 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/zero_copy_stream.cc
+564 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/zero_copy_stream.h
+565 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc
+566 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/zero_copy_stream_impl.h
+567 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc
+568 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.h
+569 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/zero_copy_stream_unittest.cc
+570 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/lite_unittest.cc
+571 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/message.cc
+572 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/message.h
+573 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/message_lite.cc
+574 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/message_lite.h
+575 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/message_unittest.cc
+576 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/package_info.h
+577 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/reflection_ops.cc
+578 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/reflection_ops.h
+579 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/reflection_ops_unittest.cc
+580 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/repeated_field.cc
+581 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/descriptor.cc
+582 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/repeated_field_unittest.cc
+583 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/service.cc
+584 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/service.h
+585 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/stubs/stl_util-inl.h
+586 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/stubs/common.cc
+587 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/stubs/common_unittest.cc
+588 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/stubs/hash.h
+589 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/stubs/map-util.h
+590 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/stubs/once.cc
+591 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/stubs/once.h
+592 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/stubs/once_unittest.cc
+593 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/stubs/common.h
+594 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/stubs/structurally_valid.cc
+595 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/stubs/structurally_valid_unittest.cc
+596 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/stubs/strutil.cc
+597 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/stubs/strutil.h
+598 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/stubs/strutil_unittest.cc
+599 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/stubs/substitute.cc
+600 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/stubs/substitute.h
+601 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/test_util.cc
+602 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/test_util.h
+603 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/test_util_lite.cc
+604 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/test_util_lite.h
+605 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/testdata/golden_message
+606 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/testdata/golden_packed_fields_message
+607 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/testdata/text_format_unittest_data.txt
+608 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/testdata/text_format_unittest_extensions_data.txt
+609 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/testing/file.cc
+610 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/testing/file.h
+611 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/testing/googletest.cc
+612 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/testing/googletest.h
+613 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/testing/zcgunzip.cc
+614 silly lockFile 3739f1e3-ming-npm-cache-ref-0-2-1-package tar://C:\Users\Frederik\AppData\Roaming\npm-cache\ref\0.2.1\package
+615 silly lockFile 3739f1e3-ming-npm-cache-ref-0-2-1-package tar://C:\Users\Frederik\AppData\Roaming\npm-cache\ref\0.2.1\package
+616 silly lockFile 008d7366-64007-0-9630472110584378-tmp-tgz tar://C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227964007-0.9630472110584378\tmp.tgz
+617 silly lockFile 008d7366-64007-0-9630472110584378-tmp-tgz tar://C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227964007-0.9630472110584378\tmp.tgz
+618 silly lockFile 306136b7-stry-npmjs-org-ref-ref-0-2-1-tgz https://registry.npmjs.org/ref/-/ref-0.2.1.tgz
+619 silly lockFile 306136b7-stry-npmjs-org-ref-ref-0-2-1-tgz https://registry.npmjs.org/ref/-/ref-0.2.1.tgz
+620 silly lockFile 5a048d2a-ref-0-2-1 ref@0.2.1
+621 silly lockFile 5a048d2a-ref-0-2-1 ref@0.2.1
+622 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/testing/zcgzip.cc
+623 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/text_format.cc
+624 silly lockFile 905fdac8-ref ref@*
+625 silly lockFile 905fdac8-ref ref@*
+626 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/text_format.h
+627 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/text_format_unittest.cc
+628 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/unittest.proto
+629 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/unittest_custom_options.proto
+630 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/unittest_embed_optimize_for.proto
+631 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/unittest_empty.proto
+632 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/unittest_enormous_descriptor.proto
+633 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/unittest_import.proto
+634 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/unittest_import_lite.proto
+635 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/unittest_lite.proto
+636 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/unittest_lite_imports_nonlite.proto
+637 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/unittest_mset.proto
+638 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/unittest_no_generic_services.proto
+639 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/unittest_optimize_for.proto
+640 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/unknown_field_set.cc
+641 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/unknown_field_set.h
+642 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/unknown_field_set_unittest.cc
+643 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/wire_format.cc
+644 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/wire_format.h
+645 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/wire_format_lite.cc
+646 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/wire_format_lite.h
+647 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/wire_format_lite_inl.h
+648 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/wire_format_unittest.cc
+649 silly gunzTarPerm extractEntry protobuf/vsprojects/config.h
+650 silly gunzTarPerm extractEntry protobuf/vsprojects/convert2008to2005.sh
+651 silly gunzTarPerm extractEntry protobuf/vsprojects/extract_includes.bat
+652 silly gunzTarPerm extractEntry protobuf/vsprojects/readme.txt
+653 silly gunzTarPerm extractEntry protobuf_for_node.cc
+654 silly gunzTarPerm extractEntry protobuf_for_node.h
+655 silly gunzTarPerm extractEntry test/unittest.js
+656 silly gunzTarPerm extractEntry test/golden_message
+657 silly gunzTarPerm extractEntry test/unittest.desc
+658 silly gunzTarPerm extractEntry wscript
+659 silly lockFile 04565b76-npm-cache-protobuf-0-8-8-package tar://C:\Users\Frederik\AppData\Roaming\npm-cache\protobuf\0.8.8\package
+660 silly lockFile 04565b76-npm-cache-protobuf-0-8-8-package tar://C:\Users\Frederik\AppData\Roaming\npm-cache\protobuf\0.8.8\package
+661 silly lockFile 8b5b2573-63975-0-5364236324094236-tmp-tgz tar://C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227963975-0.5364236324094236\tmp.tgz
+662 silly lockFile 8b5b2573-63975-0-5364236324094236-tmp-tgz tar://C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227963975-0.5364236324094236\tmp.tgz
+663 silly lockFile f7426a32--org-protobuf-protobuf-0-8-8-tgz https://registry.npmjs.org/protobuf/-/protobuf-0.8.8.tgz
+664 silly lockFile f7426a32--org-protobuf-protobuf-0-8-8-tgz https://registry.npmjs.org/protobuf/-/protobuf-0.8.8.tgz
+665 silly lockFile 444add7c-protobuf-0-8-8 protobuf@0.8.8
+666 silly lockFile 444add7c-protobuf-0-8-8 protobuf@0.8.8
+667 silly lockFile 1f913069-protobuf protobuf@*
+668 silly lockFile 1f913069-protobuf protobuf@*
+669 silly resolved [ { author:
+669 silly resolved      { name: 'Brian J. Brennan',
+669 silly resolved        email: 'brianloveswords@gmail.com',
+669 silly resolved        url: 'http://bjb.io' },
+669 silly resolved     name: 'buffer-crc32',
+669 silly resolved     description: 'A pure javascript CRC32 algorithm that plays nice with binary data',
+669 silly resolved     version: '0.2.1',
+669 silly resolved     contributors: [ [Object] ],
+669 silly resolved     homepage: 'https://github.com/brianloveswords/buffer-crc32',
+669 silly resolved     repository:
+669 silly resolved      { type: 'git',
+669 silly resolved        url: 'git://github.com/brianloveswords/buffer-crc32.git' },
+669 silly resolved     main: 'index.js',
+669 silly resolved     scripts: { test: 'tap tests/*.test.js' },
+669 silly resolved     dependencies: {},
+669 silly resolved     devDependencies: { tap: '~0.2.5' },
+669 silly resolved     optionalDependencies: {},
+669 silly resolved     engines: { node: '*' },
+669 silly resolved     readme: '# buffer-crc32\n\n[![Build Status](https://secure.travis-ci.org/brianloveswords/buffer-crc32.png?branch=master)](http://travis-ci.org/brianloveswords/buffer-crc32)\n\ncrc32 that works with binary data and fancy character sets, outputs\nbuffer, signed or unsigned data and has tests.\n\nDerived from the sample CRC implementation in the PNG specification: http://www.w3.org/TR/PNG/#D-CRCAppendix\n\n# install\n```\nnpm install buffer-crc32\n```\n\n# example\n```js\nvar crc32 = require(\'buffer-crc32\');\n// works with buffers\nvar buf = Buffer([0x00, 0x73, 0x75, 0x70, 0x20, 0x62, 0x72, 0x6f, 0x00])\ncrc32(buf) // -> <Buffer 94 5a ab 4a>\n\n// has convenience methods for getting signed or unsigned ints\ncrc32.signed(buf) // -> -1805997238\ncrc32.unsigned(buf) // -> 2488970058\n\n// will cast to buffer if given a string, so you can\n// directly use foreign characters safely\ncrc32(\'自動販売機\') // -> <Buffer cb 03 1a c5>\n\n// and works in append mode too\nvar partialCrc = crc32(\'hey\');\nvar partialCrc = crc32(\' \', partialCrc);\nvar partialCrc = crc32(\'sup\', partialCrc);\nvar partialCrc = crc32(\' \', partialCrc);\nvar finalCrc = crc32(\'bros\', partialCrc); // -> <Buffer 47 fa 55 70>\n```\n\n# tests\nThis was tested against the output of zlib\'s crc32 method. You can run\nthe tests with`npm test` (requires tap)\n\n# see also\nhttps://github.com/alexgorbatchev/node-crc, `crc.buffer.crc32` also\nsupports buffer inputs and return unsigned ints (thanks @tjholowaychuk).\n\n# license\nMIT/X11\n',
+669 silly resolved     readmeFilename: 'README.md',
+669 silly resolved     bugs: { url: 'https://github.com/brianloveswords/buffer-crc32/issues' },
+669 silly resolved     _id: 'buffer-crc32@0.2.1',
+669 silly resolved     _shasum: 'be3e5382fc02b6d6324956ac1af98aa98b08534c',
+669 silly resolved     _from: 'buffer-crc32@*',
+669 silly resolved     _resolved: 'https://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.1.tgz' },
+669 silly resolved   { name: 'ursa',
+669 silly resolved     version: '0.8.0',
+669 silly resolved     keywords:
+669 silly resolved      [ 'crypto',
+669 silly resolved        'key',
+669 silly resolved        'openssl',
+669 silly resolved        'private',
+669 silly resolved        'public',
+669 silly resolved        'rsa',
+669 silly resolved        'sign',
+669 silly resolved        'signature',
+669 silly resolved        'verify',
+669 silly resolved        'verification',
+669 silly resolved        'hash',
+669 silly resolved        'digest' ],
+669 silly resolved     description: 'RSA public/private key crypto',
+669 silly resolved     homepage: 'https://github.com/Obvious/ursa',
+669 silly resolved     repository: { type: 'git', url: 'https://github.com/Obvious/ursa.git' },
+669 silly resolved     licenses: [ [Object] ],
+669 silly resolved     author:
+669 silly resolved      { name: 'Dan Bornstein',
+669 silly resolved        email: 'danfuzz@milk.com',
+669 silly resolved        url: 'http://www.milk.com/' },
+669 silly resolved     maintainers: [ [Object] ],
+669 silly resolved     main: 'lib/ursa.js',
+669 silly resolved     engine: { node: '>=0.6.0' },
+669 silly resolved     scripts:
+669 silly resolved      { install: 'node-gyp configure build && node install.js',
+669 silly resolved        test: 'node test/test.js' },
+669 silly resolved     readme: 'ursa\n====\n\nThis Node module provides a fairly complete set of wrappers for the\nRSA public/private key crypto functionality of OpenSSL.\n\nIt has been tested by the maintainer on both Node 0.6.* and Node 0.8.*,\non both Linux and OS X (the latter in several configurations, including\nNode built from source as well as installed via MacPorts and Homebrew).\nIf you find it doesn\'t work for you, please file a bug (see below).\n\nIt has been tested on Windows by [SLaks](https://github.com/SLaks).  (see additional installation requirements)\n\n\nBuilding and Installing\n-----------------------\n\n```shell\nnpm install ursa\n```\n\nOr grab the source and\n\n```shell\nnpm install\n```\n\nTesting\n-------\n\n```shell\nnpm test\n```\n\nOr\n\n```shell\nnode ./test/test.js\n```\n\nOn Windows, you\'ll need to install some dependencies first:\n - [node-gyp](https://github.com/TooTallNate/node-gyp/) (`npm install -g node-gyp`)\n   - [Python 2.7](http://www.python.org/download/releases/2.7.3#download) (not 3.3)\n   - Vistual Studio 2010 or higher (including Express editions)\n     - Windows XP/Vista/7:\n        - Microsoft Visual Studio C++ 2010 ([Express](http://go.microsoft.com/?linkid=9709949) version works well)\n        - For 64-bit builds of node and native modules you will _**also**_ need the [Windows 7 64-bit SDK](http://www.microsoft.com/en-us/download/details.aspx?id=8279)\n        - If you get errors that the 64-bit compilers are not installed you may also need the [compiler update for the Windows SDK 7.1](http://www.microsoft.com/en-us/download/details.aspx?id=4422)\n     - Windows 8:\n        - Microsoft Visual Studio C++ 2012 for Windows Desktop ([Express](http://go.microsoft.com/?linkid=9816758) version works well)\n - [OpenSSL](http://slproweb.com/products/Win32OpenSSL.html) (normal, not light)\nin the same bitness as your Node.js installation.\n  - The build script looks for OpenSSL in the default install directory  \n  (`C:\\OpenSSL-Win32` or `C:\\OpenSSL-Win64`)\n  - If you get `Error: The specified module could not be found.`, copy `libeay32.dll` from the OpenSSL bin directory to this module\'s bin directory, or to Windows\\System3.\n\nUsage\n-----\n\nThis library aims to be convenient to use, allowing one to pass in and\nget back regular string objects. However, it is also meant to be reasonably\neasy to use efficiently, allowing one to pass in and get back Buffer\nobjects. Using Buffers is always the more efficient option.\n\nAll methods that can deal with strings take one or more arguments indicating\nthe encoding to use when interpreting an argument or generating a result.\nThese are limited to the usual encoding names that are valid for use with\nBuffers: `base64` `binary` `hex` and `utf8`. If an encoding is left undefined\nand the argument is a string, then the encoding is *always* assumed to be\n`utf8`. If an argument is a Buffer, then the encoding (if defined at all)\nis ignored. An undefined output encoding is *always* interpreted as a request\nfor a Buffer result.\n\nThe library knows how to read and output PEM format files for both\npublic and private keys, and it can generate new private keys (aka\nkeypairs).\n\nThe usual public-encryption / private-decryption operations by default\nuse padding mode `RSA_PKCS1_OAEP_PADDING`, which is the recommended\nmode for all new applications (as of this writing). Note that this mode\nbuilds-in a random element into every encryption operation, making it\nunnecessary to waste time or effort adding randomness in at a higher layer.\nThis default may be overridden to use the older mode `RSA_PKCS1_PADDING`\nif needed.\n\nThe less well-understood private-encryption / public-decryption operations\n(used for building signature mechanisms) are always done using padding\nmode `RSA_PKCS1_PADDING`. This doesn\'t build in any randomness (but that\'s\nnot usually a problem for applications that use these operations).\n\nSee the doc comments and tests for the excruciating details, but here\'s\na quick rundown of the available top-level exports and instance methods:\n\nTop-Level Exports\n-----------------\n\n### ursa.createPrivateKey(pem, password, encoding)\n\nCreate and return a private key (aka a keypair) read in from the given\nPEM-format file.  If defined, the given password is used to decrypt\nthe PEM file.\n\nThe encoding, if specified, applies to both other arguments.\n\nSee "Public Key Methods" below for more details.\n\n### ursa.assertKey(obj)\n\nConvenient shorthand for `assert(ursa.isKey(obj))`.\n\n### ursa.assertPrivateKey(obj)\n\nConvenient shorthand for `assert(ursa.isPrivateKey(obj))`.\n\n### ursa.assertPublicKey(obj)\n\nConvenient shorthand for `assert(ursa.isPublicKey(obj))`.\n\n### ursa.coerceKey(orig)\n\nCoerce the given key value into a key object (either public or\nprivate), returning it. If given a private key object, this just\nreturns it as-is. If given a string or Buffer, it tries to parse it as\nPEM. Anything else will result in an error.\n\n### ursa.coercePrivateKey(orig)\n\nCoerce the given key value into a private key object, returning it. If\ngiven a private key object, this just returns it as-is. If given a\nstring or Buffer, it tries to parse it as PEM. Anything else will\nresult in an error.\n\n### ursa.coercePublicKey(orig)\n\nCoerce the given key value into a public key object, returning it. If\ngiven a private key object, this just returns it as-is. If given a\nstring or Buffer, it tries to parse it as PEM. Anything else will\nresult in an error.\n\n### ursa.createPublicKey(pem, encoding)\n\nCreate and return a public key read in from the given PEM-format file.\nSee "Public Key Methods" below for more details.\n\n### ursa.createSigner(algorithm)\n\nCreate and return a signer which can sign a hash generated with the named\nalgorithm (such as `"sha256"` or `"md5"`). See "Signer Methods" below\nfor more details.\n\nThis function is similar to `crypto.createSign()`, except this function\ntakes a hash algorithm name (e.g., `"sha256"`) and not a crypto+hash name\ncombination (e.g., `"RSA-SHA256"`).\n\n### ursa.createVerifier(algorithm)\n\nCreate and return a verifier which can verify a hash generated with the\nnamed algorithm (such as `"sha256"` or `"md5"`). See "Verifier Methods" below\nfor more details.\n\nThis function is similar to `crypto.createVerify()`, except this function\ntakes a hash algorithm name (e.g., `"sha256"`) and not a crypto+hash name\ncombination (e.g., `"RSA-SHA256"`).\n\n### ursa.equalKeys(key1, key2)\n\nThis returns `true` if and only if both arguments are key objects of\nthe same type (public or private) and their contents match.\n\n### ursa.generatePrivateKey(modulusBits, exponent)\n\nCreate and return a freshly-generated private key (aka a keypair).\nThe first argument indicates the number of bits in the modulus (1024\nor more is generally considered secure). The second argument indicates\nthe exponent value, which must be odd (65537 is the typical value; 3\nand 17 are also common).  Both arguments are optional and default to\n2048 and 65537 (respectively).\n\nThis method will throw if `modulusBits` is less than `512` (because\nit\'s pretty crazy to want a key with that few bits) or if `exponent`\nis even (because RSA only works for odd exponents).\n\nUsing the command-line `openssl` tool, this operation is\nequivalent to:\n\n```shell\nopenssl genrsa -out key-name.pem <modulusBits>\n```\n\nfor exponent 65537, or for exponent 3 with the additional option\n`-3`. (That tool doesn\'t support other exponents.)\n\n### ursa.isKey(obj)\n\nReturn `true` if the given object is a key object (public or private) that\nwas created by this module. Return `false` if not.\n\n### ursa.isPrivateKey(obj)\n\nReturn `true` if the given object is a private key object that\nwas created by this module. Return `false` if not.\n\n### ursa.isPublicKey(obj)\n\nReturn `true` if the given object is a public key object that\nwas created by this module. Return `false` if not.\n\nNote that, even though all the public key operations work on private\nkeys, this function only returns true if the given object is a\npublic key, per se.\n\n### ursa.matchingPublicKeys(key1, key2)\n\nThis returns `true` if and only if both arguments are key objects of\nsome sort (either can be public or private, and they don\'t have to\nbe the same) and their public aspects match each other.\n\n### ursa.sshFingerprint(sshKey, sshEncoding, outEncoding)\n\nReturn the SSH-style public key fingerprint of the given SSH-format\npublic key (which was, perhaps, the result of a call to\n`toPublicSsh()` on a key object).\n\nThis is no more and no less than an MD5 hash of the given SSH-format\npublic key. This function doesn\'t actually check to see if the given\nkey is valid (garbage in, garbage out).\n\nUsing the command-line `ssh-keygen` tool, this operation is\nequivalent to:\n\n```shell\nssh-keygen -l -f key-name.sshpub\n```\n\nThis operation is also equivalent to this:\n\n```shell\ncat key-name.sshpub | awk \'{print $2}\' | base64 --decode | md5\n```\n\nPublic Key Methods\n------------------\n\nThese are all the methods available on public keys. These methods are\n*also* available on private keys (since private keys have all the\nunderlying data necessary to perform the public-side operations).\n\n### encrypt(buf, bufEncoding, outEncoding, padding)\n\nThis performs the "public encrypt" operation on the given buffer. The\nresult is always a byte sequence that is the same size as the key\nassociated with the instance. (For example, if the key is 2048 bits,\nthen the result of this operation will be 2048 bits, aka 256 bytes.)\n\nThe input buffer is limited to be no larger than the key size\nminus 41 bytes.\n\nIf no padding mode is specified, the default, and recommended, mode\nis `ursa.RSA_PKCS1_OAEP_PADDING`. The mode\n`ursa.RSA_PKCS1_PADDING` is also supported.\n\n### getExponent(encoding)\n\nGet the public exponent as an unsigned big-endian byte sequence.\n\n### getModulus(encoding)\n\nGet the public modulus as an unsigned big-endian byte sequence.\n\n### hashAndVerify(algorithm, buf, sig, encoding)\n\nThis is a friendly wrapper for verifying signatures. The given buffer\nis hashed using the named algorithm, and the result is verified\nagainst the given signature. This returns `true` if the hash and\nsignature match and the signature was produced by the appropriate\nprivate key. This returns `false` if the signature is a valid signature\n(structurally) but doesn\'t match. This throws an exception in other\ncases.\n\nThe encoding, if specified, applies to both buffer-like arguments. The\nalgorithm must always be a string.\n\n### publicDecrypt(buf, bufEncoding, outEncoding)\n\nThis performs the "public decrypt" operation on the given buffer. The\nresult is always a byte sequence that is no more than the size of the\nkey associated with the instance. (For example, if the key is 2048\nbits, then the result of this operation will be no more than 2048\nbits, aka 256 bytes.)\n\nThis operation is always performed using padding mode\n`RSA_PKCS1_PADDING`.\n\n### toPublicPem(encoding)\n\nThis converts the public key data into a PEM-format file.\n\n### toPublicSsh(encoding)\n\nThis converts the public key data into an SSH-format file. This is the\nfile format one finds in SSH\'s `authorized_keys` and `known_hosts` files.\nWhen used in such files, the contents are base64-encoded and prefixed with\nthe label `ssh-rsa`. Depending on context, the line a key appears on may\nalso have a host name prefix (in `known_hosts`) or comment suffix\n(in `authorized_keys`).\n\nUsing the command-line `ssh-keygen` tool, this operation is equivalent to:\n\n```shell\nssh-keygen -y -f key-name.pem > key-name.sshpub\n```\n\n### toPublicSshFingerprint(encoding)\n\nReturn the SSH-style public key fingerprint of this key. See\n`ursa.sshFingerprint()`, above, for more details.\n\n### verify(algorithm, hash, sig, encoding)\n\nThis performs an RSA public-verify on the given hash buffer, which\nshould be the result of performing the hash operation named by\nthe algorithm (such as `"sha256"` or `"md5"`) on some data. The\nsignature buffer is checked to see if it contains a private-signed\nstatement of the algorithm and hash. The method returns `true` if\nthe signature and hash match, or `false` if the signature and hash\ndon\'t match but the signature is at least a valid signature of\nsome sort. In any other situation, this throws an exception.\n\nThe encoding, if specified, applies to both buffer-like arguments. The\nalgorithm must always be a string.\n\nThis method is the underlying one used as part of the implementation\nof the higher-level and much friendlier `ursa.createVerifier()` and\n`hashAndVerify()`.\n\n### ununseal(ununsealer)\n\nThis is an internal method that is used in the implementation of\n`ursa.isKey()` `ursa.isPrivateKey()` `ursa.isPublicKey()` and\nassociated assertion functions. When called externally, it will\nalways return `undefined`.\n\n\nPrivate Key Methods\n-------------------\n\nThese are the methods available on private keys, above and beyond\nwhat is available for public keys.\n\n### decrypt(buf, bufEncoding, outEncoding, padding)\n\nThis performs the "private decrypt" operation on the given buffer. The\nresult is always a byte sequence that is no more than the size of the\nkey associated with the instance. (For example, if the key is 2048\nbits, then the result of this operation will be no more than 2048\nbits, aka 256 bytes.)\n\nIf no padding mode is specified, the default, and recommended, mode\nis `ursa.RSA_PKCS1_OAEP_PADDING`. The mode\n`ursa.RSA_PKCS1_PADDING` is also supported.\n\n### hashAndSign(algorithm, buf, bufEncoding, outEncoding)\n\nThis is a friendly wrapper for producing signatures. The given buffer\nis hashed using the named algorithm, and the result is signed using\nthe private key held by this instance. The return value of this method\nis the signature.\n\n### privateEncrypt(buf, bufEncoding, outEncoding)\n\nThis performs the "private encrypt" operation on the given buffer. The\nresult is always a byte sequence that is the same size as the key\nassociated with the instance. (For example, if the key is 2048 bits,\nthen the result of this operation will be 2048 bits, aka 256 bytes.)\n\nThe input buffer is limited to be no larger than the key size\nminus 12 bytes.\n\nThis operation is always performed using padding mode\n`RSA_PKCS1_PADDING`.\n\n### sign(algorithm, hash, hashEncoding, outEncoding)\n\nThis performs an RSA private-sign on the given hash buffer, which\nshould be the result of performing the hash operation named by\nthe algorithm (such as `"sha256"` or `"md5"`) on some data. The\nresult of this operation may later be passed to `verify()` on the\ncorresponding public key.\n\nThis method is the underlying one used as part of the implementation\nof the higher-level and much friendlier `ursa.createSigner()` and\n`hashAndSign()`.\n\n### toPrivatePem(encoding)\n\nThis converts the private key data into a PEM-format file. The result\nis not encrypted, so it behooves the user of this method to take care\nwith the result if the key is sensitive from a security standpoint,\nwhich is often the case with such things. (YMMV of course.)\n\n\nSigner Methods\n--------------\n\nThese are the methods available on signer objects, which are returned\nby `ursa.createSigner()`. These are similar to the objects returned\nfrom `crypto.createSign()`.\n\n### update(buf, bufEncoding)\n\nUpdate the hash in-progress with the given data.\n\n### sign(privateKey, outEncoding)\n\nGet the final hash of the data, and sign it using the private key. The\nreturn value is the signature, suitable for later verification.\n\n\nVerifier Methods\n----------------\n\nThese are the methods available on verifier objects, which are returned\nby `ursa.createVerifier()`. These are similar to the objects returned\nfrom `crypto.createVerify()`.\n\n### update(buf, bufEncoding)\n\nUpdate the hash in-progress with the given data.\n\n### verify(publicKey, sig, sigEncoding)\n\nGet the final hash of the data, and verify that the given signature\nboth matches it and was produced by the private key corresponding to\nthe given public key.\n\nThis returns `true` if the signature and hash match appropriately,\nor `false` if the signature appears to be generally valid (e.g.\nstructurally) yet doesn\'t match. This throws an exception in all\nother cases.\n\n\nConstants\n---------\n\nAllowed padding modes for public encryption and\nprivate decryption:\n\n* `ursa.RSA_PKCS1_PADDING`\n* `ursa.RSA_PKCS1_OAEP_PADDING`\n\n\nContributing\n------------\n\nQuestions, comments, bug reports, and pull requests are all welcome.\nSubmit them at [the project on GitHub](https://github.com/Obvious/ursa/).\n\nBug reports that include steps-to-reproduce (including code) are the\nbest. Even better, make them in the form of pull requests that update\nthe test suite. Thanks!\n\n\nAuthors\n-------\n\n[Dan Bornstein](https://github.com/danfuzz)\n([personal website](http://www.milk.com/)), supported by\n[The Obvious Corporation](http://obvious.com/).\n\nWith contribution from:\n\n* [Tyler Neylon](https://github.com/tylerneylon)\n\nWith thanks to:\n\n* [node-rsa](https://github.com/chrisa/node-rsa) by Chris Andrews,\n  for inspiration\n\n\nLicense\n-------\n\nCopyright 2012 [The Obvious Corporation](http://obvious.com/).\n\nLicensed under the Apache License, Version 2.0. \nSee the top-level file `LICENSE.txt` and\n(http://www.apache.org/licenses/LICENSE-2.0).\n',
+669 silly resolved     readmeFilename: 'README.md',
+669 silly resolved     bugs: { url: 'https://github.com/Obvious/ursa/issues' },
+669 silly resolved     _id: 'ursa@0.8.0',
+669 silly resolved     _shasum: '05d69d05c9e217025e3d10231b4f7848ecc82356',
+669 silly resolved     _from: 'ursa@*',
+669 silly resolved     _resolved: 'https://registry.npmjs.org/ursa/-/ursa-0.8.0.tgz' },
+669 silly resolved   { name: 'adm-zip',
+669 silly resolved     version: '0.4.4',
+669 silly resolved     description: 'A Javascript implementation of zip for nodejs. Allows user to create or extract zip files both in memory or to/from disk',
+669 silly resolved     keywords: [ 'zip', 'methods', 'archive', 'unzip' ],
+669 silly resolved     homepage: 'http://github.com/cthackers/adm-zip',
+669 silly resolved     author:
+669 silly resolved      { name: 'Nasca Iacob',
+669 silly resolved        email: 'sy@another-d-mention.ro',
+669 silly resolved        url: 'https://github.com/cthackers' },
+669 silly resolved     bugs:
+669 silly resolved      { url: 'https://github.com/cthackers/adm-zip/issues',
+669 silly resolved        email: 'sy@another-d-mention.ro' },
+669 silly resolved     licenses: [ [Object] ],
+669 silly resolved     main: 'adm-zip.js',
+669 silly resolved     repository: { type: 'git', url: 'https://github.com/cthackers/adm-zip.git' },
+669 silly resolved     engines: { node: '>=0.3.0' },
+669 silly resolved     readme: '# ADM-ZIP for NodeJS\r\n\r\nADM-ZIP is a pure JavaScript implementation for zip data compression for [NodeJS](http://nodejs.org/). \r\n\r\n# Installation\r\n\r\nWith [npm](http://npmjs.org) do:\r\n\r\n    $ npm install adm-zip\r\n\t\r\n## What is it good for?\r\nThe library allows you to:\r\n\r\n* decompress zip files directly to disk or in memory buffers\r\n* compress files and store them to disk in .zip format or in compressed buffers\r\n* update content of/add new/delete files from an existing .zip\r\n\r\n# Dependencies\r\nThere are no other nodeJS libraries that ADM-ZIP is dependent of\r\n\r\n# Examples\r\n\r\n## Basic usage\r\n```javascript\r\n\r\n\tvar AdmZip = require(\'adm-zip\');\r\n\r\n\t// reading archives\r\n\tvar zip = new AdmZip("./my_file.zip");\r\n\tvar zipEntries = zip.getEntries(); // an array of ZipEntry records\r\n\r\n\tzipEntries.forEach(function(zipEntry) {\r\n\t    console.log(zipEntry.toString()); // outputs zip entries information\r\n\t\tif (zipEntry.entryName == "my_file.txt") {\r\n\t\t     console.log(zipEntry.data.toString(\'utf8\')); \r\n\t\t}\r\n\t});\r\n\t// outputs the content of some_folder/my_file.txt\r\n\tconsole.log(zip.readAsText("some_folder/my_file.txt")); \r\n\t// extracts the specified file to the specified location\r\n\tzip.extractEntryTo(/*entry name*/"some_folder/my_file.txt", /*target path*/"/home/me/tempfolder", /*maintainEntryPath*/false, /*overwrite*/true);\r\n\t// extracts everything\r\n\tzip.extractAllTo(/*target path*/"/home/me/zipcontent/", /*overwrite*/true);\r\n\t\r\n\t\r\n\t// creating archives\r\n\tvar zip = new AdmZip();\r\n\t\r\n\t// add file directly\r\n\tzip.addFile("test.txt", new Buffer("inner content of the file"), "entry comment goes here");\r\n\t// add local file\r\n\tzip.addLocalFile("/home/me/some_picture.png");\r\n\t// get everything as a buffer\r\n\tvar willSendthis = zip.toBuffer();\r\n\t// or write everything to disk\r\n\tzip.writeZip(/*target file name*/"/home/me/files.zip");\r\n\t\r\n\t\r\n\t// ... more examples in the wiki\r\n```\r\n\r\nFor more detailed information please check out the [wiki](https://github.com/cthackers/adm-zip/wiki).\r\n\r\n[![build status](https://secure.travis-ci.org/cthackers/adm-zip.png)](http://travis-ci.org/cthackers/adm-zip)\r\n',
+669 silly resolved     readmeFilename: 'README.md',
+669 silly resolved     _id: 'adm-zip@0.4.4',
+669 silly resolved     _shasum: 'a61ed5ae6905c3aea58b3a657d25033091052736',
+669 silly resolved     _from: 'adm-zip@*',
+669 silly resolved     _resolved: 'https://registry.npmjs.org/adm-zip/-/adm-zip-0.4.4.tgz' },
+669 silly resolved   { name: 'ref',
+669 silly resolved     description: 'Turn Buffer instances into "pointers"',
+669 silly resolved     keywords:
+669 silly resolved      [ 'native',
+669 silly resolved        'buffer',
+669 silly resolved        'extensions',
+669 silly resolved        'c++',
+669 silly resolved        'pointer',
+669 silly resolved        'reference',
+669 silly resolved        'dereference',
+669 silly resolved        'type',
+669 silly resolved        'int',
+669 silly resolved        'long',
+669 silly resolved        'float',
+669 silly resolved        'double',
+669 silly resolved        'byte',
+669 silly resolved        '64' ],
+669 silly resolved     version: '0.2.1',
+669 silly resolved     author:
+669 silly resolved      { name: 'Nathan Rajlich',
+669 silly resolved        email: 'nathan@tootallnate.net',
+669 silly resolved        url: 'http://tootallnate.net' },
+669 silly resolved     repository: { type: 'git', url: 'git://github.com/TooTallNate/ref.git' },
+669 silly resolved     main: './lib/ref.js',
+669 silly resolved     scripts:
+669 silly resolved      { docs: 'node docs/compile',
+669 silly resolved        test: 'mocha -gc --reporter spec',
+669 silly resolved        install: 'node-gyp rebuild' },
+669 silly resolved     dependencies:
+669 silly resolved      { bindings: '~1.2.0',
+669 silly resolved        debug: '~0.8.0',
+669 silly resolved        nan: 'https://github.com/rvagg/nan/archive/47a7e16956a876adfc86efef3c28b4d0ecbb6752.tar.gz' },
+669 silly resolved     devDependencies:
+669 silly resolved      { dox: '0.4.4',
+669 silly resolved        'highlight.js': '1',
+669 silly resolved        jade: '0.35.0',
+669 silly resolved        marked: '0.3.2',
+669 silly resolved        mocha: '*',
+669 silly resolved        weak: '0.3.2' },
+669 silly resolved     gypfile: true,
+669 silly resolved     readme: 'ref\n===\n### Turn Buffer instances into "pointers"\n[![Build Status](https://secure.travis-ci.org/TooTallNate/ref.svg)](https://travis-ci.org/TooTallNate/ref)\n[![Build Status](https://ci.appveyor.com/api/projects/status/n8mswogp2im4uot8)](https://ci.appveyor.com/project/TooTallNate/ref)\n\n\nThis module is inspired by the old `Pointer` class from node-ffi, but with the\nintent of using Node\'s fast `Buffer` instances instead of a slow C++ `Pointer`\nclass. These two concepts were previously very similar, but now this module\nbrings over the functionality that Pointers had and Buffers are missing, so\nnow Buffers are a lot more powerful.\n\n### Features:\n\n * Get the memory address of any `Buffer` instance\n * Read/write references to JavaScript Objects into `Buffer` instances\n * Read/write `Buffer` instances\' memory addresses to other `Buffer` instances\n * Read/write `int64_t` and `uint64_t` data values (Numbers or Strings)\n * A "type" convention, so that you can specify a buffer as an `int *`,\n   and reference/dereference at will.\n * Offers a buffer instance representing the `NULL` pointer\n\n\nInstallation\n------------\n\nInstall with `npm`:\n\n``` bash\n$ npm install ref\n```\n\n\nExamples\n--------\n\n#### referencing and derefencing\n\n``` js\nvar ref = require(\'ref\')\n\n// so we can all agree that a buffer with the int value written\n// to it could be represented as an "int *"\nvar buf = new Buffer(4)\nbuf.writeInt32LE(12345, 0)\n\n// first, what is the memory address of the buffer?\nconsole.log(buf.address())  // ← 140362165284824\n\n// using `ref`, you can set the "type", and gain magic abilities!\nbuf.type = ref.types.int\n\n// now we can dereference to get the "meaningful" value\nconsole.log(buf.deref())  // ← 12345\n\n\n// you can also get references to the original buffer if you need it.\n// this buffer could be thought of as an "int **"\nvar one = buf.ref()\n\n// and you can dereference all the way back down to an int\nconsole.log(one.deref().deref())  // ← 12345\n```\n\nSee the [full API Docs][docs] for more examples.\n\n\nThe "type" interface\n--------------------\n\nYou can easily define your own "type" objects at attach to `Buffer` instances.\nIt just needs to be a regular JavaScript Object that contains the following\nproperties:\n\n| **Name**      | **Data Type**                    | **Description**\n|:--------------|:---------------------------------|:----------------------------------\n| `size`        | Number                           | The size in bytes required to hold this type.\n| `indirection` | Number                           | The current level of indirection of the buffer. Usually this would be _1_, and gets incremented on Buffers from `ref()` calls. A value of less than or equal to _0_ is invalid.\n| `get`         | Function (buffer, offset)        | The function to invoke when dereferencing this type when the indirection level is _1_.\n| `set`         | Function (buffer, offset, value) | The function to invoke when setting a value to a buffer instance.\n| `name`        | String                           | _(optional)_ The name to use during debugging for this type.\n| `alignment`   | Number                           | _(optional)_ The alignment of this type when placed in a struct. Defaults to the type\'s `size`.\n\nFor example, you could define a "bigint" type that dereferences into a\n[`bigint`](https://github.com/substack/node-bigint) instance:\n\n``` js\nvar ref = require(\'ref\')\nvar bigint = require(\'bigint\')\n\n// define the "type" instance according to the spec\nvar BigintType = {\n    size: ref.sizeof.int64\n  , indirection: 1\n  , get: function (buffer, offset) {\n      // return a bigint instance from the buffer\n      return bigint.fromBuffer(buffer)\n    }\n  , set: function (buffer, offset, value) {\n      // \'value\' would be a bigint instance\n      var val = value.toString()\n      return ref.writeInt64(buffer, offset || 0, val)\n    }\n}\n\n// now we can create instances of the type from existing buffers.\n// "buf" is some Buffer instance returned from some external data\n// source, which should contain "bigint" binary data.\nbuf.type = BigintType\n\n// and now you can create "bigint" instances using this generic "types" API\nvar val = buf.deref()\n            .add(\'1234\')\n            .sqrt()\n            .shiftLeft(5)\n```\n\nBuild the docs\n--------------\n\nInstall the dev dependencies:\n\n``` bash\n$ npm install\n```\n\nGenerate the docs:\n\n``` bash\n$ npm run docs\n```\n\n\nLicense\n-------\n\n(The MIT License)\n\nCopyright (c) 2012 Nathan Rajlich &lt;nathan@tootallnate.net&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n[docs]: http://tootallnate.github.com/ref\n',
+669 silly resolved     readmeFilename: 'README.md',
+669 silly resolved     bugs: { url: 'https://github.com/TooTallNate/ref/issues' },
+669 silly resolved     homepage: 'https://github.com/TooTallNate/ref',
+669 silly resolved     _id: 'ref@0.2.1',
+669 silly resolved     _shasum: '2f6d9148652e3fd902dd864f3088751c225ac14a',
+669 silly resolved     _from: 'ref@*',
+669 silly resolved     _resolved: 'https://registry.npmjs.org/ref/-/ref-0.2.1.tgz' },
+669 silly resolved   { name: 'protobuf',
+669 silly resolved     version: '0.8.8',
+669 silly resolved     description: 'Protocol Buffers for NodeJS',
+669 silly resolved     author: '',
+669 silly resolved     main: './build/Release/protobuf_for_node',
+669 silly resolved     engines: { node: '>= 0.8.0 < 0.11.0' },
+669 silly resolved     repository: { type: 'git', url: 'git://github.com/chrisdew/protobuf.git' },
+669 silly resolved     scripts: { test: 'node test/unittest.js', install: 'node-gyp rebuild' },
+669 silly resolved     gypfile: true,
+669 silly resolved     readme: 'This is a fork of http://code.google.com/p/protobuf-for-node/\n\nIt now works with the NodeJS 0.8.x series.\n\nTo install, just type:\n\n    npm install protobuf\n\nThanks to work by seishun, it now uses node-gyp and has google\'s protocol bufferes library integrated, so no separate installtion required.\n\nAll the best,\n\nChris.\n\nP.S. Breaking change in 0.8.6:\nuint64 and int64 are now read as Javascript Strings, rather than floating point numbers.  They can still be set from Javascript Numbers (as well as from string).\n\nP.P.S. Here\'s an example I did for https://github.com/chrisdew/protobuf/issues/29 - most users won\'t need the complication of `bytes` fields.\n\nbuftest.proto\n\n    package com.chrisdew.buftest;\n\n    message BufTest {\n      optional float num  = 1;\n      optional bytes payload = 2;\n    }\n\nbuftest.js\n\n    var fs = require(\'fs\');\n    var Schema = require(\'protobuf\').Schema;\n\n    // "schema" contains all message types defined in buftest.proto|desc.\n    var schema = new Schema(fs.readFileSync(\'buftest.desc\'));\n\n    // The "BufTest" message.\n    var BufTest = schema[\'com.chrisdew.buftest.BufTest\'];\n\n    var ob = { num: 42 };\n    ob.payload = new Buffer("Hello World");\n\n    var proto = BufTest.serialize(ob);\n    console.log(\'proto.length:\', proto.length);\n\n    var outOb = BufTest.parse(proto);\n    console.log(\'unserialised:\', JSON.stringify(outOb));\n\n    var payload = new Buffer(outOb.payload);\n    console.log(payload);\n\nMakefile: (second line begins with a TAB not spaces)\n\n    all:\n        protoc --descriptor_set_out=buftest.desc --include_imports buftest.proto\n\n\noutput:\n\n    $ node buftest.js \n    proto.length: 18\n    unserialised: {"num":42,"payload":{"0":72,"1":101,"2":108,"3":108,"4":111,"5":32,"6":87,"7":111,"8":114,"9":108,"10":100,"length":11}}\n    payload: <Buffer 48 65 6c 6c 6f 20 57 6f 72 6c 64>\n\n\n\n\n\n\n\n\n\nOlder instructions for use with the NodeJS 0.6.x series.\n========================================================\n\nPrerequisites:\n--------------\n\nNodeJS v0.6.X\nnpm\n\n\nTo install on Ubuntu and OSX:\n-------------------------------\n\nThe first steps are to build and install Google\'s protobuf library. Make sure you have the right version by running "protoc --version" after the install.\n\n    wget http://protobuf.googlecode.com/files/protobuf-2.4.1.tar.gz\n    tar -xzvf protobuf-2.4.1.tar.gz\n    cd protobuf-2.4.1/\n    ./configure && make && sudo make install\n    cd\n\nThis installs the npm package.\n\n    npm install protobuf\n\nFor Ubuntu, update library paths.\n\n    sudo ldconfig\n\nFor OSX, you might need to add the path:\n\n    export DYLD_LIBRARY_PATH=/home/chris/node_modules/protobuf/build/Release:/usr/local/lib:$DYLD_LIBRARY_PATH\n\nAnd test that it works...  Run node, try \n\n    require(\'protobuf\');\n\nyou should see: \n\n    { Schema: [Function: Schema] }\n\n\nAs seen from the instructions above, this is my first attempt at packaging a slightly complex C++ module for NPM.\n\nIf you can help me simplify these instructions, please submit a patch.\n\n\nGood luck,\n\nChris.\n\n',
+669 silly resolved     readmeFilename: 'README.md',
+669 silly resolved     bugs: { url: 'https://github.com/chrisdew/protobuf/issues' },
+669 silly resolved     homepage: 'https://github.com/chrisdew/protobuf',
+669 silly resolved     _id: 'protobuf@0.8.8',
+669 silly resolved     _shasum: '7f7447e915506ce4ca135a91b78931f4baa4b1d7',
+669 silly resolved     _from: 'protobuf@*',
+669 silly resolved     _resolved: 'https://registry.npmjs.org/protobuf/-/protobuf-0.8.8.tgz' } ]
+670 info install buffer-crc32@0.2.1 into g:\nodejs\node_modules\steam
+671 info install ursa@0.8.0 into g:\nodejs\node_modules\steam
+672 info install adm-zip@0.4.4 into g:\nodejs\node_modules\steam
+673 info install ref@0.2.1 into g:\nodejs\node_modules\steam
+674 info install protobuf@0.8.8 into g:\nodejs\node_modules\steam
+675 info installOne buffer-crc32@0.2.1
+676 info installOne ursa@0.8.0
+677 info installOne adm-zip@0.4.4
+678 info installOne ref@0.2.1
+679 info installOne protobuf@0.8.8
+680 info g:\nodejs\node_modules\steam\node_modules\buffer-crc32 unbuild
+681 info g:\nodejs\node_modules\steam\node_modules\ursa unbuild
+682 info g:\nodejs\node_modules\steam\node_modules\adm-zip unbuild
+683 info g:\nodejs\node_modules\steam\node_modules\ref unbuild
+684 info g:\nodejs\node_modules\steam\node_modules\protobuf unbuild
+685 verbose tar unpack C:\Users\Frederik\AppData\Roaming\npm-cache\buffer-crc32\0.2.1\package.tgz
+686 silly lockFile 5345e1bb--steam-node-modules-buffer-crc32 tar://g:\nodejs\node_modules\steam\node_modules\buffer-crc32
+687 verbose lock tar://g:\nodejs\node_modules\steam\node_modules\buffer-crc32 C:\Users\Frederik\AppData\Roaming\npm-cache\5345e1bb--steam-node-modules-buffer-crc32.lock
+688 silly lockFile 4b3f6413-e-buffer-crc32-0-2-1-package-tgz tar://C:\Users\Frederik\AppData\Roaming\npm-cache\buffer-crc32\0.2.1\package.tgz
+689 verbose lock tar://C:\Users\Frederik\AppData\Roaming\npm-cache\buffer-crc32\0.2.1\package.tgz C:\Users\Frederik\AppData\Roaming\npm-cache\4b3f6413-e-buffer-crc32-0-2-1-package-tgz.lock
+690 verbose tar unpack C:\Users\Frederik\AppData\Roaming\npm-cache\ursa\0.8.0\package.tgz
+691 silly lockFile 0530de09--modules-steam-node-modules-ursa tar://g:\nodejs\node_modules\steam\node_modules\ursa
+692 verbose lock tar://g:\nodejs\node_modules\steam\node_modules\ursa C:\Users\Frederik\AppData\Roaming\npm-cache\0530de09--modules-steam-node-modules-ursa.lock
+693 silly lockFile 35cf169b-npm-cache-ursa-0-8-0-package-tgz tar://C:\Users\Frederik\AppData\Roaming\npm-cache\ursa\0.8.0\package.tgz
+694 verbose lock tar://C:\Users\Frederik\AppData\Roaming\npm-cache\ursa\0.8.0\package.tgz C:\Users\Frederik\AppData\Roaming\npm-cache\35cf169b-npm-cache-ursa-0-8-0-package-tgz.lock
+695 verbose tar unpack C:\Users\Frederik\AppData\Roaming\npm-cache\adm-zip\0.4.4\package.tgz
+696 silly lockFile f81a274a-dules-steam-node-modules-adm-zip tar://g:\nodejs\node_modules\steam\node_modules\adm-zip
+697 verbose lock tar://g:\nodejs\node_modules\steam\node_modules\adm-zip C:\Users\Frederik\AppData\Roaming\npm-cache\f81a274a-dules-steam-node-modules-adm-zip.lock
+698 silly lockFile 5d33dc02--cache-adm-zip-0-4-4-package-tgz tar://C:\Users\Frederik\AppData\Roaming\npm-cache\adm-zip\0.4.4\package.tgz
+699 verbose lock tar://C:\Users\Frederik\AppData\Roaming\npm-cache\adm-zip\0.4.4\package.tgz C:\Users\Frederik\AppData\Roaming\npm-cache\5d33dc02--cache-adm-zip-0-4-4-package-tgz.lock
+700 verbose tar unpack C:\Users\Frederik\AppData\Roaming\npm-cache\ref\0.2.1\package.tgz
+701 silly lockFile 003523af-e-modules-steam-node-modules-ref tar://g:\nodejs\node_modules\steam\node_modules\ref
+702 verbose lock tar://g:\nodejs\node_modules\steam\node_modules\ref C:\Users\Frederik\AppData\Roaming\npm-cache\003523af-e-modules-steam-node-modules-ref.lock
+703 silly lockFile ca23fb33--npm-cache-ref-0-2-1-package-tgz tar://C:\Users\Frederik\AppData\Roaming\npm-cache\ref\0.2.1\package.tgz
+704 verbose lock tar://C:\Users\Frederik\AppData\Roaming\npm-cache\ref\0.2.1\package.tgz C:\Users\Frederik\AppData\Roaming\npm-cache\ca23fb33--npm-cache-ref-0-2-1-package-tgz.lock
+705 verbose tar unpack C:\Users\Frederik\AppData\Roaming\npm-cache\protobuf\0.8.8\package.tgz
+706 silly lockFile fcf00f1e-ules-steam-node-modules-protobuf tar://g:\nodejs\node_modules\steam\node_modules\protobuf
+707 verbose lock tar://g:\nodejs\node_modules\steam\node_modules\protobuf C:\Users\Frederik\AppData\Roaming\npm-cache\fcf00f1e-ules-steam-node-modules-protobuf.lock
+708 silly lockFile a1fc7aa4-cache-protobuf-0-8-8-package-tgz tar://C:\Users\Frederik\AppData\Roaming\npm-cache\protobuf\0.8.8\package.tgz
+709 verbose lock tar://C:\Users\Frederik\AppData\Roaming\npm-cache\protobuf\0.8.8\package.tgz C:\Users\Frederik\AppData\Roaming\npm-cache\a1fc7aa4-cache-protobuf-0-8-8-package-tgz.lock
+710 silly gunzTarPerm modes [ '755', '644' ]
+711 silly gunzTarPerm modes [ '755', '644' ]
+712 silly gunzTarPerm modes [ '755', '644' ]
+713 silly gunzTarPerm modes [ '755', '644' ]
+714 silly gunzTarPerm modes [ '755', '644' ]
+715 silly gunzTarPerm extractEntry package.json
+716 silly gunzTarPerm extractEntry package.json
+717 silly gunzTarPerm extractEntry package.json
+718 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+719 silly gunzTarPerm extractEntry package.json
+720 silly gunzTarPerm extractEntry .npmignore
+721 silly gunzTarPerm extractEntry README.md
+722 silly gunzTarPerm extractEntry package.json
+723 silly gunzTarPerm extractEntry .npmignore
+724 silly gunzTarPerm extractEntry README.md
+725 silly gunzTarPerm extractEntry README.md
+726 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+727 silly gunzTarPerm extractEntry zipEntry.js
+728 silly gunzTarPerm modified mode [ 'zipEntry.js', 438, 420 ]
+729 silly gunzTarPerm extractEntry .npmignore
+730 silly gunzTarPerm extractEntry README.md
+731 silly gunzTarPerm extractEntry .npmignore
+732 silly gunzTarPerm extractEntry README.md
+733 silly gunzTarPerm extractEntry install.js
+734 silly gunzTarPerm extractEntry index.js
+735 silly gunzTarPerm extractEntry .travis.yml
+736 silly gunzTarPerm extractEntry adm-zip.js
+737 silly gunzTarPerm modified mode [ 'adm-zip.js', 438, 420 ]
+738 silly gunzTarPerm extractEntry zipFile.js
+739 silly gunzTarPerm modified mode [ 'zipFile.js', 438, 420 ]
+740 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+741 silly gunzTarPerm modified mode [ '.idea/scopes/scope_settings.xml', 438, 420 ]
+742 silly gunzTarPerm extractEntry methods/deflater.js
+743 silly gunzTarPerm modified mode [ 'methods/deflater.js', 438, 420 ]
+744 silly gunzTarPerm extractEntry methods/index.js
+745 silly gunzTarPerm modified mode [ 'methods/index.js', 438, 420 ]
+746 silly gunzTarPerm extractEntry methods/inflater.js
+747 silly gunzTarPerm modified mode [ 'methods/inflater.js', 438, 420 ]
+748 silly gunzTarPerm extractEntry test/index.js
+749 silly gunzTarPerm modified mode [ 'test/index.js', 438, 420 ]
+750 silly gunzTarPerm extractEntry test/assets/attributes_test/asd/New Text Document.txt
+751 silly gunzTarPerm modified mode [ 'test/assets/attributes_test/asd/New Text Document.txt',
+751 silly gunzTarPerm   438,
+751 silly gunzTarPerm   420 ]
+752 silly gunzTarPerm extractEntry test/assets/attributes_test/blank file.txt
+753 silly gunzTarPerm modified mode [ 'test/assets/attributes_test/blank file.txt', 438, 420 ]
+754 silly gunzTarPerm extractEntry test/assets/attributes_test/New folder/hidden.txt
+755 silly gunzTarPerm modified mode [ 'test/assets/attributes_test/New folder/hidden.txt', 438, 420 ]
+756 silly gunzTarPerm extractEntry test/assets/attributes_test/New folder/hidden_readonly.txt
+757 silly gunzTarPerm modified mode [ 'test/assets/attributes_test/New folder/hidden_readonly.txt',
+757 silly gunzTarPerm   438,
+757 silly gunzTarPerm   420 ]
+758 silly gunzTarPerm extractEntry test/assets/attributes_test/New folder/readonly.txt
+759 silly gunzTarPerm modified mode [ 'test/assets/attributes_test/New folder/readonly.txt',
+759 silly gunzTarPerm   438,
+759 silly gunzTarPerm   420 ]
+760 silly gunzTarPerm extractEntry test/assets/attributes_test/New folder/somefile.txt
+761 silly gunzTarPerm modified mode [ 'test/assets/attributes_test/New folder/somefile.txt',
+761 silly gunzTarPerm   438,
+761 silly gunzTarPerm   420 ]
+762 silly gunzTarPerm extractEntry test/assets/attributes_test.zip
+763 silly gunzTarPerm modified mode [ 'test/assets/attributes_test.zip', 438, 420 ]
+764 silly gunzTarPerm extractEntry test/assets/fast.zip
+765 silly gunzTarPerm modified mode [ 'test/assets/fast.zip', 438, 420 ]
+766 silly gunzTarPerm extractEntry test/assets/fastest.zip
+767 silly gunzTarPerm modified mode [ 'test/assets/fastest.zip', 438, 420 ]
+768 silly gunzTarPerm extractEntry test/assets/linux_arc.zip
+769 silly gunzTarPerm modified mode [ 'test/assets/linux_arc.zip', 438, 420 ]
+770 silly gunzTarPerm extractEntry test/assets/maximum.zip
+771 silly gunzTarPerm modified mode [ 'test/assets/maximum.zip', 438, 420 ]
+772 silly gunzTarPerm extractEntry test/assets/normal.zip
+773 silly gunzTarPerm modified mode [ 'test/assets/normal.zip', 438, 420 ]
+774 silly gunzTarPerm extractEntry test/assets/store.zip
+775 silly gunzTarPerm modified mode [ 'test/assets/store.zip', 438, 420 ]
+776 silly gunzTarPerm extractEntry test/assets/ultra.zip
+777 silly gunzTarPerm modified mode [ 'test/assets/ultra.zip', 438, 420 ]
+778 silly gunzTarPerm extractEntry util/constants.js
+779 silly gunzTarPerm modified mode [ 'util/constants.js', 438, 420 ]
+780 silly gunzTarPerm extractEntry util/errors.js
+781 silly gunzTarPerm modified mode [ 'util/errors.js', 438, 420 ]
+782 silly gunzTarPerm extractEntry util/fattr.js
+783 silly gunzTarPerm modified mode [ 'util/fattr.js', 438, 420 ]
+784 silly gunzTarPerm extractEntry util/index.js
+785 silly gunzTarPerm modified mode [ 'util/index.js', 438, 420 ]
+786 silly gunzTarPerm extractEntry util/utils.js
+787 silly gunzTarPerm modified mode [ 'util/utils.js', 438, 420 ]
+788 silly gunzTarPerm extractEntry headers/entryHeader.js
+789 silly gunzTarPerm modified mode [ 'headers/entryHeader.js', 438, 420 ]
+790 silly gunzTarPerm extractEntry headers/index.js
+791 silly gunzTarPerm modified mode [ 'headers/index.js', 438, 420 ]
+792 silly gunzTarPerm extractEntry headers/mainHeader.js
+793 silly gunzTarPerm modified mode [ 'headers/mainHeader.js', 438, 420 ]
+794 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+795 silly gunzTarPerm modified mode [ 'MIT-LICENSE.txt', 438, 420 ]
+796 silly gunzTarPerm extractEntry addon.cc
+797 silly gunzTarPerm extractEntry binding.gyp
+798 silly gunzTarPerm extractEntry test/address.js
+799 silly gunzTarPerm extractEntry test/char.js
+800 silly gunzTarPerm extractEntry binding.gyp
+801 silly gunzTarPerm extractEntry lib/ursa.js
+802 silly gunzTarPerm extractEntry tests/crc.test.js
+803 silly gunzTarPerm extractEntry example/feeds.js
+804 silly gunzTarPerm extractEntry example/protoservice.js
+805 silly gunzTarPerm extractEntry test/coerce.js
+806 silly gunzTarPerm extractEntry test/int64.js
+807 silly gunzTarPerm extractEntry example/feeds.desc
+808 silly gunzTarPerm extractEntry example/feeds.proto
+809 silly gunzTarPerm extractEntry test/bool.js
+810 silly gunzTarPerm extractEntry example/protoservice.cc
+811 silly gunzTarPerm extractEntry example/protoservice.pb.cc
+812 silly gunzTarPerm extractEntry LICENSE.txt
+813 silly gunzTarPerm extractEntry src/asprintf.cc
+814 silly gunzTarPerm extractEntry example/protoservice.pb.h
+815 silly gunzTarPerm extractEntry example/protoservice.proto
+816 silly gunzTarPerm extractEntry test/object.js
+817 silly gunzTarPerm extractEntry test/pointer.js
+818 silly gunzTarPerm extractEntry src/asprintf.h
+819 silly gunzTarPerm extractEntry src/ursaNative.cc
+820 silly gunzTarPerm extractEntry test/ref-deref.js
+821 silly gunzTarPerm extractEntry test/reinterpret.js
+822 silly gunzTarPerm extractEntry src/ursaNative.h
+823 silly gunzTarPerm extractEntry test/fixture.js
+824 silly gunzTarPerm extractEntry COPYING
+825 silly gunzTarPerm extractEntry protobuf/CHANGES.txt
+826 silly lockFile 5345e1bb--steam-node-modules-buffer-crc32 tar://g:\nodejs\node_modules\steam\node_modules\buffer-crc32
+827 silly lockFile 5345e1bb--steam-node-modules-buffer-crc32 tar://g:\nodejs\node_modules\steam\node_modules\buffer-crc32
+828 silly gunzTarPerm extractEntry test/string.js
+829 silly gunzTarPerm extractEntry test/alloc.js
+830 silly lockFile 4b3f6413-e-buffer-crc32-0-2-1-package-tgz tar://C:\Users\Frederik\AppData\Roaming\npm-cache\buffer-crc32\0.2.1\package.tgz
+831 silly lockFile 4b3f6413-e-buffer-crc32-0-2-1-package-tgz tar://C:\Users\Frederik\AppData\Roaming\npm-cache\buffer-crc32\0.2.1\package.tgz
+832 silly gunzTarPerm extractEntry protobuf/CONTRIBUTORS.txt
+833 silly gunzTarPerm extractEntry protobuf/COPYING.txt
+834 info preinstall buffer-crc32@0.2.1
+835 verbose readDependencies using package.json deps
+836 verbose readDependencies using package.json deps
+837 silly resolved []
+838 verbose about to build g:\nodejs\node_modules\steam\node_modules\buffer-crc32
+839 info build g:\nodejs\node_modules\steam\node_modules\buffer-crc32
+840 verbose linkStuff [ false,
+840 verbose linkStuff   false,
+840 verbose linkStuff   false,
+840 verbose linkStuff   'g:\\nodejs\\node_modules\\steam\\node_modules' ]
+841 info linkStuff buffer-crc32@0.2.1
+842 silly gunzTarPerm extractEntry protobuf/INSTALL.txt
+843 silly gunzTarPerm extractEntry protobuf/README.chromium
+844 verbose linkBins buffer-crc32@0.2.1
+845 verbose linkMans buffer-crc32@0.2.1
+846 verbose rebuildBundles buffer-crc32@0.2.1
+847 info install buffer-crc32@0.2.1
+848 info postinstall buffer-crc32@0.2.1
+849 silly gunzTarPerm extractEntry test/types.js
+850 silly gunzTarPerm extractEntry test/isNull.js
+851 silly gunzTarPerm extractEntry protobuf/README.txt
+852 silly gunzTarPerm extractEntry protobuf/config.h
+853 silly gunzTarPerm extractEntry test/native.js
+854 silly gunzTarPerm extractEntry test/test.js
+855 silly gunzTarPerm extractEntry protobuf/protobuf.gyp
+856 silly gunzTarPerm extractEntry protobuf/src/Makefile.am
+857 silly gunzTarPerm extractEntry appveyor.yml
+858 silly gunzTarPerm extractEntry binding.gyp
+859 silly gunzTarPerm extractEntry test/blort-pass.pem
+860 silly gunzTarPerm extractEntry test/blort.pem
+861 silly gunzTarPerm extractEntry .travis.yml
+862 silly gunzTarPerm extractEntry lib/ref.js
+863 silly gunzTarPerm extractEntry test/blort.pub
+864 silly gunzTarPerm extractEntry test/blort.sshpub
+865 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/repeated_field.h
+866 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/parser.cc
+867 silly gunzTarPerm extractEntry test/zorch.pem
+868 silly gunzTarPerm extractEntry test/zorch.pub
+869 silly gunzTarPerm extractEntry src/binding.cc
+870 silly gunzTarPerm extractEntry History.md
+871 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/code_generator.cc
+872 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/command_line_interface.cc
+873 silly gunzTarPerm extractEntry docs/compile.js
+874 silly gunzTarPerm extractEntry docs/gh-pages.sh
+875 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/command_line_interface.h
+876 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/command_line_interface_unittest.cc
+877 silly gunzTarPerm extractEntry docs/images/apple-touch-icon-114x114.png
+878 silly gunzTarPerm extractEntry docs/images/apple-touch-icon-72x72.png
+879 silly gunzTarPerm extractEntry docs/images/apple-touch-icon.png
+880 silly gunzTarPerm extractEntry docs/images/favicon.ico
+881 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_helpers.h
+882 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_bootstrap_unittest.cc
+883 silly gunzTarPerm extractEntry docs/images/ref.pxm
+884 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_enum.h
+885 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_enum_field.cc
+886 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_enum_field.h
+887 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_extension.cc
+888 silly gunzTarPerm extractEntry docs/index.jade
+889 silly gunzTarPerm extractEntry docs/scripts/jquery-1.7.2.min.js
+890 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_extension.h
+891 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_field.cc
+892 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_field.h
+893 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_file.cc
+894 silly gunzTarPerm extractEntry docs/scripts/main.js
+895 silly gunzTarPerm extractEntry docs/stylesheets/base.css
+896 silly gunzTarPerm extractEntry docs/stylesheets/layout.css
+897 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_file.h
+898 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_generator.cc
+899 silly gunzTarPerm extractEntry docs/stylesheets/skeleton.css
+900 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_generator.h
+901 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_helpers.cc
+902 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_enum.cc
+903 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_message.cc
+904 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_message.h
+905 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_message_field.cc
+906 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_message_field.h
+907 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_plugin_unittest.cc
+908 silly lockFile 0530de09--modules-steam-node-modules-ursa tar://g:\nodejs\node_modules\steam\node_modules\ursa
+909 silly lockFile 0530de09--modules-steam-node-modules-ursa tar://g:\nodejs\node_modules\steam\node_modules\ursa
+910 silly lockFile 35cf169b-npm-cache-ursa-0-8-0-package-tgz tar://C:\Users\Frederik\AppData\Roaming\npm-cache\ursa\0.8.0\package.tgz
+911 silly lockFile 35cf169b-npm-cache-ursa-0-8-0-package-tgz tar://C:\Users\Frederik\AppData\Roaming\npm-cache\ursa\0.8.0\package.tgz
+912 info preinstall ursa@0.8.0
+913 verbose readDependencies using package.json deps
+914 verbose readDependencies using package.json deps
+915 silly resolved []
+916 verbose about to build g:\nodejs\node_modules\steam\node_modules\ursa
+917 info build g:\nodejs\node_modules\steam\node_modules\ursa
+918 verbose linkStuff [ false,
+918 verbose linkStuff   false,
+918 verbose linkStuff   false,
+918 verbose linkStuff   'g:\\nodejs\\node_modules\\steam\\node_modules' ]
+919 info linkStuff ursa@0.8.0
+920 verbose linkBins ursa@0.8.0
+921 verbose linkMans ursa@0.8.0
+922 verbose rebuildBundles ursa@0.8.0
+923 info install ursa@0.8.0
+924 verbose unsafe-perm in lifecycle true
+925 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_primitive_field.cc
+926 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_primitive_field.h
+927 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_service.cc
+928 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_service.h
+929 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_string_field.cc
+930 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_string_field.h
+931 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_test_bad_identifiers.proto
+932 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/cpp/cpp_unittest.cc
+933 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/importer.cc
+934 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/importer.h
+935 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/importer_unittest.cc
+936 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_helpers.cc
+937 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_enum.cc
+938 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_enum_field.cc
+939 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_enum_field.h
+940 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_extension.cc
+941 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_extension.h
+942 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_field.cc
+943 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_field.h
+944 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_file.cc
+945 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_file.h
+946 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_generator.cc
+947 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_generator.h
+948 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_enum.h
+949 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_helpers.h
+950 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_message.cc
+951 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_message.h
+952 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_message_field.cc
+953 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_message_field.h
+954 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_plugin_unittest.cc
+955 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_primitive_field.cc
+956 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_primitive_field.h
+957 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_service.cc
+958 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_service.h
+959 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_string_field.cc
+960 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/java/java_string_field.h
+961 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/main.cc
+962 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/mock_code_generator.cc
+963 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/mock_code_generator.h
+964 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/package_info.h
+965 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/code_generator.h
+966 silly lockFile 003523af-e-modules-steam-node-modules-ref tar://g:\nodejs\node_modules\steam\node_modules\ref
+967 silly lockFile 003523af-e-modules-steam-node-modules-ref tar://g:\nodejs\node_modules\steam\node_modules\ref
+968 silly lockFile ca23fb33--npm-cache-ref-0-2-1-package-tgz tar://C:\Users\Frederik\AppData\Roaming\npm-cache\ref\0.2.1\package.tgz
+969 silly lockFile ca23fb33--npm-cache-ref-0-2-1-package-tgz tar://C:\Users\Frederik\AppData\Roaming\npm-cache\ref\0.2.1\package.tgz
+970 info preinstall ref@0.2.1
+971 verbose readDependencies using package.json deps
+972 verbose readDependencies using package.json deps
+973 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/parser.h
+974 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/parser_unittest.cc
+975 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/plugin.cc
+976 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/plugin.h
+977 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/plugin.pb.cc
+978 verbose cache add [ 'bindings@~1.2.0', null ]
+979 verbose cache add name=undefined spec="bindings@~1.2.0" args=["bindings@~1.2.0",null]
+980 verbose parsed url { protocol: null,
+980 verbose parsed url   slashes: null,
+980 verbose parsed url   auth: null,
+980 verbose parsed url   host: null,
+980 verbose parsed url   port: null,
+980 verbose parsed url   hostname: null,
+980 verbose parsed url   hash: null,
+980 verbose parsed url   search: null,
+980 verbose parsed url   query: null,
+980 verbose parsed url   pathname: 'bindings@~1.2.0',
+980 verbose parsed url   path: 'bindings@~1.2.0',
+980 verbose parsed url   href: 'bindings@~1.2.0' }
+981 verbose cache add name="bindings" spec="~1.2.0" args=["bindings","~1.2.0"]
+982 verbose parsed url { protocol: null,
+982 verbose parsed url   slashes: null,
+982 verbose parsed url   auth: null,
+982 verbose parsed url   host: null,
+982 verbose parsed url   port: null,
+982 verbose parsed url   hostname: null,
+982 verbose parsed url   hash: null,
+982 verbose parsed url   search: null,
+982 verbose parsed url   query: null,
+982 verbose parsed url   pathname: '~1.2.0',
+982 verbose parsed url   path: '~1.2.0',
+982 verbose parsed url   href: '~1.2.0' }
+983 verbose addNamed [ 'bindings', '~1.2.0' ]
+984 verbose addNamed [ null, '>=1.2.0-0 <1.3.0-0' ]
+985 silly lockFile b6dd1de3-bindings-1-2-0 bindings@~1.2.0
+986 verbose lock bindings@~1.2.0 C:\Users\Frederik\AppData\Roaming\npm-cache\b6dd1de3-bindings-1-2-0.lock
+987 verbose cache add [ 'debug@~0.8.0', null ]
+988 verbose cache add name=undefined spec="debug@~0.8.0" args=["debug@~0.8.0",null]
+989 verbose parsed url { protocol: null,
+989 verbose parsed url   slashes: null,
+989 verbose parsed url   auth: null,
+989 verbose parsed url   host: null,
+989 verbose parsed url   port: null,
+989 verbose parsed url   hostname: null,
+989 verbose parsed url   hash: null,
+989 verbose parsed url   search: null,
+989 verbose parsed url   query: null,
+989 verbose parsed url   pathname: 'debug@~0.8.0',
+989 verbose parsed url   path: 'debug@~0.8.0',
+989 verbose parsed url   href: 'debug@~0.8.0' }
+990 verbose cache add name="debug" spec="~0.8.0" args=["debug","~0.8.0"]
+991 verbose parsed url { protocol: null,
+991 verbose parsed url   slashes: null,
+991 verbose parsed url   auth: null,
+991 verbose parsed url   host: null,
+991 verbose parsed url   port: null,
+991 verbose parsed url   hostname: null,
+991 verbose parsed url   hash: null,
+991 verbose parsed url   search: null,
+991 verbose parsed url   query: null,
+991 verbose parsed url   pathname: '~0.8.0',
+991 verbose parsed url   path: '~0.8.0',
+991 verbose parsed url   href: '~0.8.0' }
+992 verbose addNamed [ 'debug', '~0.8.0' ]
+993 verbose addNamed [ null, '>=0.8.0-0 <0.9.0-0' ]
+994 silly lockFile 686fb81d-debug-0-8-0 debug@~0.8.0
+995 verbose lock debug@~0.8.0 C:\Users\Frederik\AppData\Roaming\npm-cache\686fb81d-debug-0-8-0.lock
+996 verbose cache add [ 'nan@https://github.com/rvagg/nan/archive/47a7e16956a876adfc86efef3c28b4d0ecbb6752.tar.gz',
+996 verbose cache add   null ]
+997 verbose cache add name=undefined spec="nan@https://github.com/rvagg/nan/archive/47a7e16956a876adfc86efef3c28b4d0ecbb6752.tar.gz" args=["nan@https://github.com/rvagg/nan/archive/47a7e16956a876adfc86efef3c28b4d0ecbb6752.tar.gz",null]
+998 verbose parsed url { protocol: null,
+998 verbose parsed url   slashes: null,
+998 verbose parsed url   auth: null,
+998 verbose parsed url   host: null,
+998 verbose parsed url   port: null,
+998 verbose parsed url   hostname: null,
+998 verbose parsed url   hash: null,
+998 verbose parsed url   search: null,
+998 verbose parsed url   query: null,
+998 verbose parsed url   pathname: 'nan@https://github.com/rvagg/nan/archive/47a7e16956a876adfc86efef3c28b4d0ecbb6752.tar.gz',
+998 verbose parsed url   path: 'nan@https://github.com/rvagg/nan/archive/47a7e16956a876adfc86efef3c28b4d0ecbb6752.tar.gz',
+998 verbose parsed url   href: 'nan@https://github.com/rvagg/nan/archive/47a7e16956a876adfc86efef3c28b4d0ecbb6752.tar.gz' }
+999 verbose cache add name="nan" spec="https://github.com/rvagg/nan/archive/47a7e16956a876adfc86efef3c28b4d0ecbb6752.tar.gz" args=["nan","https://github.com/rvagg/nan/archive/47a7e16956a876adfc86efef3c28b4d0ecbb6752.tar.gz"]
+1000 verbose parsed url { protocol: 'https:',
+1000 verbose parsed url   slashes: true,
+1000 verbose parsed url   auth: null,
+1000 verbose parsed url   host: 'github.com',
+1000 verbose parsed url   port: null,
+1000 verbose parsed url   hostname: 'github.com',
+1000 verbose parsed url   hash: null,
+1000 verbose parsed url   search: null,
+1000 verbose parsed url   query: null,
+1000 verbose parsed url   pathname: '/rvagg/nan/archive/47a7e16956a876adfc86efef3c28b4d0ecbb6752.tar.gz',
+1000 verbose parsed url   path: '/rvagg/nan/archive/47a7e16956a876adfc86efef3c28b4d0ecbb6752.tar.gz',
+1000 verbose parsed url   href: 'https://github.com/rvagg/nan/archive/47a7e16956a876adfc86efef3c28b4d0ecbb6752.tar.gz' }
+1001 silly lockFile 4bae6dee-dfc86efef3c28b4d0ecbb6752-tar-gz https://github.com/rvagg/nan/archive/47a7e16956a876adfc86efef3c28b4d0ecbb6752.tar.gz
+1002 verbose lock https://github.com/rvagg/nan/archive/47a7e16956a876adfc86efef3c28b4d0ecbb6752.tar.gz C:\Users\Frederik\AppData\Roaming\npm-cache\4bae6dee-dfc86efef3c28b4d0ecbb6752-tar-gz.lock
+1003 silly addNameRange { name: 'bindings', range: '>=1.2.0-0 <1.3.0-0', hasData: false }
+1004 silly addNameRange { name: 'debug', range: '>=0.8.0-0 <0.9.0-0', hasData: false }
+1005 verbose url raw bindings
+1006 verbose url resolving [ 'https://registry.npmjs.org/', './bindings' ]
+1007 verbose url resolved https://registry.npmjs.org/bindings
+1008 info trying registry request attempt 1 at 23:59:25
+1009 http GET https://registry.npmjs.org/bindings
+1010 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/plugin.pb.h
+1011 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/plugin.proto
+1012 verbose addRemoteTarball [ 'https://github.com/rvagg/nan/archive/47a7e16956a876adfc86efef3c28b4d0ecbb6752.tar.gz',
+1012 verbose addRemoteTarball   null ]
+1013 verbose url raw debug
+1014 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+1015 verbose url resolved https://registry.npmjs.org/debug
+1016 info trying registry request attempt 1 at 23:59:25
+1017 verbose etag "6PDGK8APMFSZVOUP3BEZ4R3UT"
+1018 http GET https://registry.npmjs.org/debug
+1019 info retry fetch attempt 1 at 23:59:25
+1020 verbose fetch to= C:\Users\Frederik\AppData\Local\Temp\npm-6288-FOMJIuFM\1401227965535-0.568603643681854\tmp.tgz
+1021 http GET https://github.com/rvagg/nan/archive/47a7e16956a876adfc86efef3c28b4d0ecbb6752.tar.gz
+1022 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/python/python_generator.cc
+1023 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/python/python_generator.h
+1024 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/python/python_plugin_unittest.cc
+1025 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/subprocess.cc
+1026 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/subprocess.h
+1027 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/test_plugin.cc
+1028 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/zip_output_unittest.sh
+1029 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/zip_writer.cc
+1030 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/compiler/zip_writer.h
+1031 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/descriptor.h
+1032 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/descriptor.pb.cc
+1033 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/descriptor.pb.h
+1034 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/descriptor.proto
+1035 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/descriptor_database.cc
+1036 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/descriptor_database.h
+1037 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/descriptor_database_unittest.cc
+1038 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/descriptor_unittest.cc
+1039 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/dynamic_message.cc
+1040 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/dynamic_message.h
+1041 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/dynamic_message_unittest.cc
+1042 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/extension_set.cc
+1043 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/extension_set.h
+1044 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/extension_set_heavy.cc
+1045 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/extension_set_unittest.cc
+1046 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/generated_message_reflection.cc
+1047 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/generated_message_reflection.h
+1048 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/generated_message_reflection_unittest.cc
+1049 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/generated_message_util.cc
+1050 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/generated_message_util.h
+1051 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/printer_unittest.cc
+1052 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/coded_stream.cc
+1053 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/coded_stream_inl.h
+1054 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/coded_stream_unittest.cc
+1055 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/gzip_stream.cc
+1056 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/gzip_stream.h
+1057 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/gzip_stream_unittest.sh
+1058 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/package_info.h
+1059 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/printer.cc
+1060 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/printer.h
+1061 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/coded_stream.h
+1062 silly lockFile f81a274a-dules-steam-node-modules-adm-zip tar://g:\nodejs\node_modules\steam\node_modules\adm-zip
+1063 silly lockFile f81a274a-dules-steam-node-modules-adm-zip tar://g:\nodejs\node_modules\steam\node_modules\adm-zip
+1064 silly lockFile 5d33dc02--cache-adm-zip-0-4-4-package-tgz tar://C:\Users\Frederik\AppData\Roaming\npm-cache\adm-zip\0.4.4\package.tgz
+1065 silly lockFile 5d33dc02--cache-adm-zip-0-4-4-package-tgz tar://C:\Users\Frederik\AppData\Roaming\npm-cache\adm-zip\0.4.4\package.tgz
+1066 info preinstall adm-zip@0.4.4
+1067 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/tokenizer.cc
+1068 verbose readDependencies using package.json deps
+1069 verbose readDependencies using package.json deps
+1070 silly resolved []
+1071 verbose about to build g:\nodejs\node_modules\steam\node_modules\adm-zip
+1072 info build g:\nodejs\node_modules\steam\node_modules\adm-zip
+1073 verbose linkStuff [ false,
+1073 verbose linkStuff   false,
+1073 verbose linkStuff   false,
+1073 verbose linkStuff   'g:\\nodejs\\node_modules\\steam\\node_modules' ]
+1074 info linkStuff adm-zip@0.4.4
+1075 verbose linkBins adm-zip@0.4.4
+1076 verbose linkMans adm-zip@0.4.4
+1077 verbose rebuildBundles adm-zip@0.4.4
+1078 info install adm-zip@0.4.4
+1079 info postinstall adm-zip@0.4.4
+1080 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/tokenizer.h
+1081 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/tokenizer_unittest.cc
+1082 info ursa@0.8.0 Failed to exec install script
+1083 info g:\nodejs\node_modules\steam\node_modules\ursa unbuild
+1084 info preuninstall ursa@0.8.0
+1085 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/zero_copy_stream.cc
+1086 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/zero_copy_stream.h
+1087 info uninstall ursa@0.8.0
+1088 verbose false,g:\nodejs\node_modules,g:\nodejs\node_modules\steam\node_modules unbuild ursa@0.8.0
+1089 info postuninstall ursa@0.8.0
+1090 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/zero_copy_stream_impl.cc
+1091 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/zero_copy_stream_impl.h
+1092 verbose about to build g:\nodejs\node_modules\steam
+1093 info g:\nodejs\node_modules\steam unbuild
+1094 info preuninstall steam@0.6.6
+1095 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc
+1096 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.h
+1097 info uninstall steam@0.6.6
+1098 verbose true,g:\nodejs\node_modules,g:\nodejs\node_modules unbuild steam@0.6.6
+1099 info postuninstall steam@0.6.6
+1100 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/io/zero_copy_stream_unittest.cc
+1101 silly gunzTarPerm extractEntry protobuf/src/google/protobuf/lite_unittest.cc
+1102 error Error: ENOENT, lstat 'g:\nodejs\node_modules\steam\node_modules\protobuf\protobuf\src\google\protobuf\compiler\java\java_message.cc'
+1103 error If you need help, you may report this *entire* log,
+1103 error including the npm and node versions, at:
+1103 error     <http://github.com/npm/npm/issues>
+1104 error System Windows_NT 6.2.9200
+1105 error command "g:\\NodeJs\\node.exe" "g:\\NodeJs\\node_modules\\npm\\bin\\npm-cli.js" "install" "steam"
+1106 error cwd g:\nodejs\phonegabtutorial
+1107 error node -v v0.10.28
+1108 error npm -v 1.4.9
+1109 error path g:\nodejs\node_modules\steam\node_modules\protobuf\protobuf\src\google\protobuf\compiler\java\java_message.cc
+1110 error fstream_path g:\nodejs\node_modules\steam\node_modules\protobuf\protobuf\src\google\protobuf\compiler\java\java_message.cc
+1111 error fstream_type File
+1112 error fstream_class FileWriter
+1113 error code ENOENT
+1114 error errno 34
+1115 error fstream_stack g:\NodeJs\node_modules\npm\node_modules\fstream\lib\writer.js:284:26
+1115 error fstream_stack Object.oncomplete (fs.js:107:15)
+1116 verbose exit [ 34, true ]

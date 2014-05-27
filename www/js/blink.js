@@ -1,4 +1,5 @@
 var host = "http://192.168.178.24/";
+var Steam = require('steam');
 
 $(document).ready(function() {
 	$('#login').on("touch click", function() {
@@ -24,5 +25,12 @@ function loadPage(page) {
 }
 
 function login() {
-	var ref = window.open('https://steamcommunity.com/openid/login?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=checkid_setup&openid.return_to=http%3A%2F%2Fcsgo-blink.com%2Fuser%2Flogin%3Flogin&openid.realm=http%3A%2F%2Fcsgo-blink.com&openid.ns.sreg=http%3A%2F%2Fopenid.net%2Fextensions%2Fsreg%2F1.1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select', '_blank', 'location=yes');
+	var bot = new Steam.SteamClient();
+	bot.logOn({
+		accountName : 'xxkingarthurxx',
+		password : 'Apfel1994!'
+	});
+	bot.on('loggedOn', function() {
+		alert("nice");
+	});
 }
