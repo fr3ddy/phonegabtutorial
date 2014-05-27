@@ -71,7 +71,7 @@ h3, h4, h5, .panel {
 
 /* CUSTOM CSS */
 
-#content{
+#content {
 	padding-bottom: 34px;
 }
 
@@ -81,12 +81,19 @@ h3, h4, h5, .panel {
 }
 
 /* OVERRIDE BOOTSTRAP */
-.btn.active{
+.btn.active {
 	background-color: #191919;
 	color: white;
 }
 
-.row{
+.row {
 	padding-left: 0px;
 	padding-right: 0px;
+}
+
+.img-thumbnail {
+	background-color: transparent;
+	border: 1px;
+	border-style: outset;
+	border-color: #FD8403
 }
