@@ -1,10 +1,12 @@
+var host = "http://192.168.178.24/";
+
 $(document).ready(function() {
 
 });
 
 function loadPage(page) {
 	$.ajax({
-		url : "http://localhost/blinkAPI/" + page,
+		url : host+"blinkAPI/" + page,
 		// the name of the callback parameter, as specified by the YQL service
 		jsonp : "callback",
 		// tell jQuery we're expecting JSONP
